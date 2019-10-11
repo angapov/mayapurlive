@@ -1,0 +1,17 @@
+{
+  "name": "mayapur-live",
+  "version": "0.0.0",
+  "author": "",
+  "license": "AGPL-3.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "9.1.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1"
+  }
+}
