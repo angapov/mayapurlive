@@ -4,6 +4,7 @@ import { dark } from 'grommet/themes'
 
 import Footer from './Footer'
 import Header from './Header'
+import Chat from './Chat'
 
 import { createGlobalStyle } from 'styled-components'
 
@@ -29,6 +30,7 @@ export default ({ children, showFooter = true, showChat = true }) => (
         {children}
       </Box>
       {showFooter && <Footer />}
+      {showChat && <Chat />}
     </Box>
   </Grommet>
 )
