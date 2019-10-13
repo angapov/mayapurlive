@@ -1,70 +1,127 @@
-# Apollo With Authentication Example
+<p align="center">
+  <a href="https://www.gatsbyjs.org">
+    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  </a>
+</p>
 
-## How to use
+### 👋 Looking for a way to support live previews with Gatsby + WordPress?
+[Check this repo out](https://github.com/justinwhall/wordpress-gatsby-preview-starter)!
 
-### Using `create-next-app`
+# Gatsby + Headless WordPress + Netlify Starter
 
-Execute [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app) with [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) or [npx](https://github.com/zkat/npx#readme) to bootstrap the example:
+A starter skeleton that leverages the WordPress API for [Gatsby](https://github.com/gatsbyjs/gatsby/). Support for Continuous integration with Netlify. Publishing posts call the Netlify build hook. Deploy to Netlify stage or production enviroment when updating a WordPress post or page.
 
-```bash
-npx create-next-app --example with-apollo-auth with-apollo-auth-app
-# or
-yarn create next-app --example with-apollo-auth with-apollo-auth-app
+## Dependencies
+
+* [WP Buildhook Deploy](https://github.com/justinwhall/littlebot-netlify) installed and activated on the source WordPress installation.
+
+#### This Project was forked from the default [Gatsby Starter](https://github.com/gatsbyjs/gatsby-starter-blog)
+
+
+### [Production Demo](https://gatsby-wordpress-netlify-production.netlify.com/)
+### [Stage Demo](https://gatsby-wordpress-netlify-stage.netlify.com/)
+
+## Getting Started
+1. Fork Gatsby WordPress Netlify
+2. Clone your forked repository
+3. `npm install --global gatsby-cli` (if you don't have Gatsby CLI installed)
+4. In the root of your project yarn install
+5. Open your `gatsby-config.js` file and change the baseUrl to your WordPress url
+6. Run `yarn develop` -- _not_ `gatsby develop`
+
+### Netlify
+_Signup for a Netlify account if you don't already have one._
+
+1. Create a new site
+2. Select "GitHub" from "Continuous Deployment"
+3. Search and select your repository
+4. Click "show advanced"
+5. Click "new variable"
+6. Add a deploy key DEPLOY_ENV with a value of lbn_published_stage
+7. Click "deploy site"
+8. Under Settings > Build & Deploy click "add build hook"
+9. Name something that signifies environment (stage or production)
+10. (Optional) Click "site options" and then "change site name". Rename to something that signifies this is the environment (stage or production).
+11. (Optional) Repeat the process above a second time to create a production environment. Change the DEPLOY_ENV to lbn_published_production Optionally rename accordingly.
+
+### Install WordPress
+Install WordPress on the server of your choice or use an existing site. I recommend a stripped down theme with no front end like this. For example, this site uses [http://gatsbynetliflydemo.justinwhall.com/wp-json/](http://gatsbynetliflydemo.justinwhall.com/wp-json/) for its data source. which is no more than a stripped down _s theme.
+
+### Install WP Buildhook Deploy plugin (Optional. Can be used without this if you don't care about building on publish.)
+
+1. Download or clone the [WP Buildhook Deploy plugin](https://github.com/justinwhall/littlebot-netlify) and install on your source WordPress site.
+2. Find your build hooks on Netlify **Settings > Build & Deploy**
+3. Add build hooks to your WordPress install under **WP Admin > Settings > WP BuildHook Deploy** 
+
+### Publish!
+
+Support for Gutenberg out of the box. If you are using the classic editor, the default "Publish" metabox has been replaced with:
+
+<img src="https://gatsbynetliflydemo.justinwhall.com/wp-content/uploads/2018/06/Screenshot-2018-06-29-18.50.37_preview-300x180.png" alt="publish"  />
+
+If you update or publish a post with an environment checked, your post will be published to that environment. Likewise, if you update/publish with an environment unchecked, A post will be removed from that environment. For example, if you uncheck both environments and update, the post will be removed from both. If you publish/update with both environments checked, the post will be published to both.
+
+### Example:
+
+Using this starter requires configuring the gatsby-config.js file. You really only need to change BaseUrl, and hostingWPCOM if you're using WP.com rather than WP.org
+
+```javascript
+{
+  resolve: 'gatsby-source-wordpress',
+  options: {
+    // The base url to your WP site.
+    baseUrl: 'YOUR_WORDPRESS_URL',
+    // WP.com sites set to true, WP.org set to false
+    hostingWPCOM: false,
+    // The protocol. This can be http or https.
+    protocol: 'http',
+    // Use 'Advanced Custom Fields' Wordpress plugin
+    useACF: true,
+    auth: {},
+    // Set to true to debug endpoints on 'gatsby build'
+    verboseOutput: false
+  }
+},
 ```
 
-### Download manually
+* Update GraphQL queries to match your WordPress Content. This is the query currently on the index page. You either need to add ACF's in your WordPress to match the query (in this case Project and Date), or you need to remove those aspects of the query. The featured_media isn't a problem -- it'll work even if you have posts without featured images.
 
-Download the example:
-
-```bash
-curl https://codeload.github.com/zeit/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/with-apollo-auth
-cd with-apollo-auth
+```javascript
+allWordpressPost {
+      edges {
+        node {
+          featured_media {
+            source_url
+          }
+          author {
+            name
+            avatar_urls {
+              wordpress_24
+              wordpress_48
+              wordpress_96
+            }
+          }
+          date
+          slug
+          title
+          modified
+          excerpt
+          id
+          acf {
+            project
+            date
+          }
+          categories {
+            name
+          }
+          tags {
+            name
+          }
+          content
+        }
+      }
+    }
 ```
 
-Install it and run:
+* Finally, you'll probably want to update the SiteConfig to match your info, because right now it has mine. 🤠
 
-```bash
-npm install
-npm run dev
-# or
-yarn
-yarn dev
-```
-
-Deploy it to the cloud with [now](https://zeit.co/now) ([download](https://zeit.co/download)):
-
-```bash
-now
-```
-
-## The idea behind the example
-
-This is an extention of the _[with Apollo](https://github.com/zeit/next.js/tree/master/examples/with-apollo#the-idea-behind-the-example)_ example:
-
-> [Apollo](https://www.apollographql.com/client/) is a GraphQL client that allows you to easily query the exact data you need from a GraphQL server. In addition to fetching and mutating data, Apollo analyzes your queries and their results to construct a client-side cache of your data, which is kept up to date as further queries and mutations are run, fetching more results from the server.
->
-> In this simple example, we integrate Apollo seamlessly with Next by wrapping our _pages_ inside a [higher-order component (HOC)](https://facebook.github.io/react/docs/higher-order-components.html). Using the HOC pattern we're able to pass down a central store of query result data created by Apollo into our React component hierarchy defined inside each page of our Next application.
->
-> On initial page load, while on the server and inside `getInitialProps`, we invoke the Apollo method, [`getDataFromTree`](https://www.apollographql.com/docs/react/features/server-side-rendering.html#getDataFromTree). This method returns a promise; at the point in which the promise resolves, our Apollo Client store is completely initialized.
->
-> This example relies on [graph.cool](https://www.graph.cool) for its GraphQL backend.
->
-> _Note: If you're interested in integrating the client with your existing Redux store check out the [`with-apollo-and-redux`](https://github.com/zeit/next.js/tree/master/examples/with-apollo-and-redux) example._
-
-[graph.cool](https://www.graph.cool) can be setup with many different
-[authentication providers](https://www.graph.cool/docs/reference/integrations/overview-seimeish6e/#authentication-providers), the most basic of which is [email-password authentication](https://www.graph.cool/docs/reference/simple-api/user-authentication-eixu9osueb/#email-and-password). Once email-password authentication is enabled for your graph.cool project, you are provided with 2 useful mutations: `createUser` and `signinUser`.
-
-On loading each route, we perform a `user` query to see if the current visitor is logged in (based on a cookie, more on that in a moment). Depending on the query result, and the route, the user may be [redirected](https://github.com/zeit/next.js/blob/master/examples/with-apollo-auth/lib/redirect.js) to a different page.
-
-When creating an account, both the `createUser` and `signinUser` mutations are executed on graph.cool, which returns a token that can be used to [authenticate the user for future requests](https://www.graph.cool/docs/reference/auth/authentication-tokens-eip7ahqu5o/). The token is stored in a cookie for easy access (_note: This may have security implications. Please understand XSS and JWT before deploying this to production_).
-
-A similar process is followed when signing in, except `signinUser` is the only mutation executed.
-
-It is important to note the use of Apollo's `resetStore()` method after signing in and signing out to ensure that no user data is kept in the browser's memory.
-
-To get this example running locally, you will need to create a graph.cool
-account, and provide [the `project.graphcool` schema](https://github.com/zeit/next.js/blob/master/examples/with-apollo-auth/project.graphcool).
-
-### Note:
-
-In these _with-apollo_ examples, the `withData()` HOC must wrap a top-level component from within the `pages` directory. Wrapping a child component with the HOC will result in a `Warning: Failed prop type: The prop 'serverState' is marked as required in 'WithData(Apollo(Component))', but its value is 'undefined'` error. Down-tree child components will have access to Apollo, and can be wrapped with any other sort of `graphql()`, `compose()`, etc HOC's.
