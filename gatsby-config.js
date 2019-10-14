@@ -45,7 +45,7 @@ module.exports = {
         short_name: 'Mayapur Live',
         start_url: '/',
         background_color: '#000000',
-        theme_color: '#FFCA58',
+        theme_color: '#000000',
         display: 'standalone',
         icon: 'content/assets/icon.jpg'
       }
