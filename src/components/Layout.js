@@ -21,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-export default ({ children, showFooter = true, showChat = true }) => (
+export default ({ children, showFooter = true, showChat = false }) => (
   <Grommet full theme={dark}>
     <GlobalStyle />
     <Box flex style={{ minHeight: '100vh' }}>

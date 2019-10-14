@@ -5,5 +5,6 @@ import { Link } from 'gatsby'
 export default ({ to, children }) => {
   const theme = React.useContext(ThemeContext)
   const color = theme.global.colors[theme.anchor.color][theme.dark ? 'dark' : 'light']
-  return <Link style={{ ...theme.anchor, color }} to={to}>{children}</Link>
+  const activeColor = theme.global.colors['neutral-2']
+  return <Link style={{ ...theme.anchor, color }} activeStyle={{ color: activeColor }} to={to}>{children}</Link>
 }

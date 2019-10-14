@@ -1,10 +1,12 @@
 import React from 'react'
 import { Box, Anchor, ResponsiveContext, Text } from 'grommet'
 import { Facebook, Instagram, Mail, Favorite } from 'grommet-icons'
+import Link from './Link'
 
 const Footer = () => {
   const screen = React.useContext(ResponsiveContext)
-  const isSmall = screen === 'small'
+  // const isSmall = screen === 'small'
+  const isSmall = false
   const size = 'medium'
   return (
     <Box as='footer' fill='horizontal' direction={isSmall ? 'column' : 'row'} align='center' justify='center' background='black' pad='small' gap='small'>
@@ -20,7 +22,8 @@ const Footer = () => {
         </Box>
       </Box>
       <Box fill='horizontal' direction='row' gap='xsmall' align='center' justify='center'>
-        <Text size={size}>Made with <Favorite size='small' color='red' /> by <Anchor href='https://108.systems' target='_blank'>108.systems</Anchor></Text>
+        {/* <Text size={size}>Made with <Favorite size='small' color='red' /> by <Anchor href='https://108.systems' target='_blank'>108.systems</Anchor></Text> */}
+        <Text size={size}><Favorite size='small' color='red' /> <Link to='/team'>Project Team</Link></Text>
       </Box>
     </Box>
   )

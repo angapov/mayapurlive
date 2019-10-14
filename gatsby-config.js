@@ -38,6 +38,18 @@ module.exports = {
         // trackingId: `ADD YOUR TRACKING ID HERE`,
       }
     },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Mayapur Live',
+        short_name: 'Mayapur Live',
+        start_url: '/',
+        background_color: '#000000',
+        theme_color: '#FFCA58',
+        display: 'standalone',
+        icon: 'content/assets/icon.jpg'
+      }
+    },
     'gatsby-plugin-offline',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet'

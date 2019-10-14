@@ -1,11 +1,11 @@
 import React from 'react'
 import { Box } from 'grommet'
-import Placeholder from '../Placeholder'
+import TelegramPost from '../TelegramPost'
 
 export default ({ today }) => {
   return (
-    <Box flex align='center' justify='center'>
-      <Placeholder text='Расписание на день' height='xsmall' width='small' fill={false} />
+    <Box fill align='center' justify='center'>
+      <Box fill pad='small'><TelegramPost channel='mayapurnews' scrolling postId={904} /></Box>
     </Box>
   )
 }
