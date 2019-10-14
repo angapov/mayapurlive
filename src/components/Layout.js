@@ -24,7 +24,7 @@ const GlobalStyle = createGlobalStyle`
 export default ({ children, showFooter = true, showChat = false }) => (
   <Grommet full theme={dark}>
     <GlobalStyle />
-    <Box fill style={{ minHeight: '100vh' }}>
+    <Box flex style={{ minHeight: '100vh' }}>
       <Header />
       <Box as='main' flex>
         {children}
