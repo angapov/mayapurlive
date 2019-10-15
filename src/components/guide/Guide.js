@@ -1,11 +1,9 @@
 import React from 'react'
-import { Box, ResponsiveContext } from 'grommet'
-import Placeholder from '../Placeholder'
+import { Box } from 'grommet'
 import CategoryHeader from '../CategoryHeader'
 import Categories from './Categories'
 
 const Home = ({ categories }) => {
-  const screen = React.useContext(ResponsiveContext)
   return (
     <Box fill>
       <CategoryHeader heading='Гид по Маяпуру' search='Поиск по гиду' />
