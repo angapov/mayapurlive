@@ -30,6 +30,19 @@ module.exports = {
         name: 'assets'
       }
     },
+    {
+      resolve: 'gatsby-plugin-intl',
+      options: {
+        // language JSON resource path
+        path: `${__dirname}/src/intl`,
+        // supported language
+        languages: ['en', 'ru'],
+        // language file path
+        defaultLanguage: 'en',
+        // option to redirect to `/en` when connecting `/`
+        redirect: false
+      }
+    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
@@ -52,6 +65,7 @@ module.exports = {
     },
     'gatsby-plugin-offline',
     'gatsby-plugin-styled-components',
-    'gatsby-plugin-react-helmet'
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-netlify-cms'
   ]
 }

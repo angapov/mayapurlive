@@ -1,6 +1,7 @@
 import React from 'react'
 import { ThemeContext } from 'grommet'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
+import { Link } from 'gatsby-plugin-intl'
 
 export default ({ to, children }) => {
   const theme = React.useContext(ThemeContext)

@@ -1,9 +1,10 @@
 import React from 'react'
 import { Box, Anchor, Text } from 'grommet'
 import { Facebook, Instagram, Mail, Favorite } from 'grommet-icons'
+import { injectIntl } from 'gatsby-plugin-intl'
 import Link from './Link'
 
-const Footer = () => {
+const Footer = ({ intl }) => {
   const isSmall = false
   const size = 'medium'
   return (
@@ -20,10 +21,10 @@ const Footer = () => {
         </Box>
       </Box>
       <Box fill='horizontal' direction='row' gap='xsmall' align='center' justify='center'>
-        <Text size={size}><Favorite size='small' color='red' /> <Link to='/team'>Project Team</Link></Text>
+        <Text size={size}><Favorite size='small' color='red' /> <Link to='/team'>{intl.formatMessage({ id: 'footer_project_team' })}</Link></Text>
       </Box>
     </Box>
   )
 }
 
-export default Footer
+export default injectIntl(Footer)
