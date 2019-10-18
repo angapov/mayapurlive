@@ -2,11 +2,13 @@ import React from 'react'
 import { Box, Text, Menu, ResponsiveContext, Button } from 'grommet'
 import { Language, MapLocation, Alarm, Announce, Schedule } from 'grommet-icons'
 
-import { injectIntl, changeLocale, IntlContextConsumer } from 'gatsby-plugin-intl'
-
 import Link from './Link'
 
-const Nav = ({ isSmall, intl }) => {
+import intl from '../intl'
+import { useLocale, useLocation } from '../lib'
+
+const Nav = ({ isSmall }) => {
+  const locale = useLocale()
   const size = isSmall ? 'small' : 'medium'
   const nav = [
     { border: true, url: '/guide', intlId: 'nav_guide', icon: <MapLocation size={size} color='control' /> },
@@ -19,7 +21,7 @@ const Nav = ({ isSmall, intl }) => {
       {nav.map(item => (
         <Box key={item.id} border={item.border && { side: 'right', color: 'control' }} justify='center' align='center' basis={`1/${nav.length}`}>
           <Link to={item.url}>
-            <Button reverse plain label={<Text size={size}>{intl.formatMessage({ id: item.intlId })}</Text>} icon={item.icon} />
+            <Button reverse plain label={<Text size={size}>{intl[item.intlId][locale]}</Text>} icon={item.icon} />
           </Link>
         </Box>
       ))}
@@ -27,29 +29,35 @@ const Nav = ({ isSmall, intl }) => {
   )
 }
 
-const Header = ({ intl }) => {
+const Header = () => {
   const screen = React.useContext(ResponsiveContext)
-  const { languages } = React.useContext(IntlContextConsumer)
+  const locale = useLocale()
+  const { location, navigate } = useLocation()
+  const languages = intl.locales
   const isSmall = screen === 'small'
-  console.log('intl', languages)
   return (
     <Box fill='horizontal' direction={isSmall ? 'column' : 'row'}>
       <Box background='black' fill='horizontal' direction='row' gap='xsmall' align='center' justify='between'>
         <Box justify='start' align='center' direction='row' pad='xsmall'>
           <Link to='/'><Text>mayapur.live</Text></Link>🌴
         </Box>
-        {!isSmall && <Nav intl={intl} isSmall={isSmall} />}
+        {!isSmall && <Nav isSmall={isSmall} locale={locale} />}
         <Box justify='end' align='center' direction='row' gap='xsmall'>
           <Menu
             dropProps={{ align: { top: 'bottom', left: 'left' } }}
             icon={<Language color='control' />}
-            label={intl.locale.toUpperCase()}
-            items={languages.filter(language => language !== intl.locale).map(language => ({ label: language.toUpperCase(), onClick: () => changeLocale(language) }))}
+            label={locale.toUpperCase()}
+            items={languages.filter(language => language !== locale).map(language => {
+              const path = location.pathname.split('/').filter(part => !languages.includes(part)).join('/')
+              const href = `/${language}${path}`
+              return { label: language.toUpperCase(), onClick: () => navigate(href) }
+            }
+            )}
           />
         </Box>
       </Box>
-      {isSmall && <Nav intl={intl} isSmall={isSmall} />}
+      {isSmall && <Nav isSmall={isSmall} locale={locale} />}
     </Box>
   )
 }
-export default injectIntl(Header)
+export default Header

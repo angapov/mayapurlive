@@ -21,15 +21,15 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-export default ({ children, showFooter = true, showChat = false }) => (
+export default ({ children, locale, showFooter = true, showChat = false }) => (
   <Grommet full theme={dark}>
     <GlobalStyle />
     <Box flex style={{ minHeight: '100vh' }}>
-      <Header />
+      <Header locale={locale} />
       <Box as='main' flex>
         {children}
       </Box>
-      {showFooter && <Footer />}
+      {showFooter && <Footer locale={locale} />}
       {showChat && <Chat />}
     </Box>
   </Grommet>

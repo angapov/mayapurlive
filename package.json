@@ -40,7 +40,7 @@
     "gatsby-remark-smartypants": "^2.0.9",
     "gatsby-source-filesystem": "^2.0.38",
     "gatsby-source-wordpress": "^3.0.64",
-    "gatsby-transformer-remark": "^2.3.12",
+    "gatsby-transformer-remark": "^2.6.30",
     "gatsby-transformer-sharp": "^2.1.21",
     "grommet": "2.7.9",
     "grommet-icons": "^4.3.0",

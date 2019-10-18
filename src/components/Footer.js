@@ -1,12 +1,15 @@
 import React from 'react'
 import { Box, Anchor, Text } from 'grommet'
 import { Facebook, Instagram, Mail, Favorite } from 'grommet-icons'
-import { injectIntl } from 'gatsby-plugin-intl'
-import Link from './Link'
 
-const Footer = ({ intl }) => {
+import Link from './Link'
+import { useLocale } from '../lib'
+import intl from '../intl'
+
+const Footer = () => {
   const isSmall = false
   const size = 'medium'
+  const locale = useLocale()
   return (
     <Box as='footer' fill='horizontal' direction={isSmall ? 'column' : 'row'} align='center' justify='center' background='black' pad='small' gap='small'>
       <Box fill='horizontal' direction='row' align='center' justify='center' background='black'>
@@ -21,10 +24,10 @@ const Footer = ({ intl }) => {
         </Box>
       </Box>
       <Box fill='horizontal' direction='row' gap='xsmall' align='center' justify='center'>
-        <Text size={size}><Favorite size='small' color='red' /> <Link to='/team'>{intl.formatMessage({ id: 'footer_project_team' })}</Link></Text>
+        <Text size={size}><Favorite size='small' color='red' /> <Link to='/team'>{intl.footer_project_team[locale]}</Link></Text>
       </Box>
     </Box>
   )
 }
 
-export default injectIntl(Footer)
+export default Footer
