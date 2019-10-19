@@ -5,7 +5,6 @@ const { createFilePath } = require('gatsby-source-filesystem')
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
-
   return graphql(`
     {
       allMarkdownRemark(limit: 1000) {
@@ -51,12 +50,22 @@ exports.createPages = ({ actions, graphql }) => {
 
 exports.onCreatePage = ({ page, actions }) => {
   const { createPage, deletePage } = actions
-  const locales = ['en', 'ru'] // FIXME: remove hardcode!
+  const locales = { // FIXME: remove hardcode!
+    en: {
+      path: 'en',
+      locale: 'English',
+      default: true
+    },
+    ru: {
+      path: 'ru',
+      locale: 'Russian'
+    }
+  }
   return new Promise(resolve => {
     deletePage(page)
-
     Object.keys(locales).map(lang => {
-      const localizedPath = locales[lang].default ? page.path : locales[lang].path + page.path
+      // const localizedPath = locales[lang].default ? page.path : locales[lang].path + page.path
+      const localizedPath = locales[lang].path + page.path
 
       return createPage({
         ...page,
