@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react'
 import { globalHistory } from '@reach/router'
+import renderAst from './renderAst'
 
 import intl from '../intl'
 
-export const useLocation = () => {
+const useLocation = () => {
   const initialState = {
     location: globalHistory.location,
     navigate: globalHistory.navigate
@@ -22,10 +23,10 @@ export const useLocation = () => {
   return state
 }
 
-export const useLocale = () => {
+const useLocale = () => {
   const { location } = useLocation()
-  console.log('location', location)
   const locale = location.pathname.split('/').filter(part => intl.locales.includes(part))[0] || intl.defaultLocale
-  console.log('locale', locale)
   return locale
 }
+
+export { renderAst, useLocale, useLocation }

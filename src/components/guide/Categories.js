@@ -4,12 +4,12 @@ import { Link } from 'gatsby'
 import { Box, Heading, Grid, Stack, ResponsiveContext } from 'grommet'
 
 const Category = ({ category, size }) => (
-  <Link to='/search'>
+  <Link to={category.path}>
     <Box margin='xsmall' flex height='small' style={{ minHeight: '200px', minWidth: '300px' }} data-testid={`${category.title}.category`}>
       <Stack fill>
         <Box fill background='dark-1' />
         <Box fill justify='end'>
-          <Box fill='horizontal' align='center' justify='center' background={{ color: 'black', opacity: 'medium' }}><Heading level={3}>{category.name}</Heading></Box>
+          <Box fill='horizontal' align='center' justify='center' background={{ color: 'black', opacity: 'medium' }}><Heading level={3}>{category.title}</Heading></Box>
         </Box>
       </Stack>
     </Box>
@@ -27,7 +27,7 @@ const Categories = ({ categories = [] }) => {
     >
       {categories.map((category, index) => (
         <Category
-          key={category.id}
+          key={category.title}
           category={category}
           size={size}
         />

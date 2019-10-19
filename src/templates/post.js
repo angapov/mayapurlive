@@ -1,28 +1,26 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import Post from '../components/posts/Post'
 import Layout from '../components/Layout'
 import Seo from '../components/seo'
 
-const BlogPost = ({ pageContext: { locale }, data }) => {
-  const { markdownRemark: post } = data
+const PostPage = ({ pageContext: { locale }, data: { markdownRemark } }) => {
+  const post = { htmlAst: markdownRemark.htmlAst, ...markdownRemark.frontmatter }
   return (
     <Layout locale={locale}>
-      <Seo title='SEO Title Home' />
-      <h1>title: {post.frontmatter.title}</h1>
-      <p>description: {post.frontmatter.description}</p>
-      <p>date: {post.frontmatter.date}</p>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <Seo title={post.title} />
+      <Post post={post} />
     </Layout>
   )
 }
 
-export default BlogPost
+export default PostPage
 
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
-      html
+      htmlAst
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title

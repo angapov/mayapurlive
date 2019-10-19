@@ -5,15 +5,12 @@ import Layout from '../components/Layout'
 import Guide from '../components/guide/Guide'
 import PageSEO from '../components/seo'
 
-import testData from '../../content/test-data.json'
-
-const GuidePage = ({ data }) => {
-  const { title } = data.site.siteMetadata
-  const { categories } = testData
-
+const GuidePage = ({ data: { allMarkdownRemark } }) => {
+  const categories = allMarkdownRemark.edges.map(({ node }) => ({ title: node.frontmatter.title, path: node.fields.slug }))
+  console.log('categories', categories)
   return (
-    <Layout title={title}>
-      <PageSEO title='Events' />
+    <Layout>
+      <PageSEO title='Guide' />
       <Guide categories={categories} />
     </Layout>
   )
@@ -22,11 +19,22 @@ const GuidePage = ({ data }) => {
 export default GuidePage
 
 export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-        postPrefix
+  query GuidePageQuery($locale: String) {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: { frontmatter: { templateKey: { eq: "category" }, locale: { eq: $locale } } }
+    ) {
+      edges {
+        node {
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            templateKey
+          }
+        }
       }
     }
   }
