@@ -1,11 +1,11 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import Link from '../Link'
 
 import { Box, Heading, Grid, Stack, ResponsiveContext } from 'grommet'
 
 const Category = ({ category, size }) => (
   <Link to={category.path}>
-    <Box margin='xsmall' flex height='small' style={{ minHeight: '200px', minWidth: '300px' }} data-testid={`${category.title}.category`}>
+    <Box margin='xsmall' flex height='small' style={{ minHeight: '200px', minWidth: '300px', width: '1fr' }} data-testid={`${category.title}.category`}>
       <Stack fill>
         <Box fill background='dark-1' />
         <Box fill justify='end'>

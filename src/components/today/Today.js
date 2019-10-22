@@ -1,11 +1,18 @@
 import React from 'react'
 import { Box } from 'grommet'
-import TelegramPost from '../TelegramPost'
+import GoogleCalendar from '../GoogleCalendar'
+import { useLocale } from '../../lib'
 
 export default ({ today }) => {
+  const locale = useLocale()
   return (
     <Box flex fill align='center' justify='center'>
-      <Box flex fill pad='small'><TelegramPost style={{ flex: '1 1 auto' }} channel='mayapurnews' scrolling postId={904} /></Box>
+      <GoogleCalendar
+        src='MnVubmc1YmN2dmlzMmMwbzFtbGNibGsyc29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'
+        mode='agenda'
+        showTitle={false}
+        lang={locale}
+      />
     </Box>
   )
 }

@@ -62,5 +62,8 @@ module.exports = {
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-netlify-cms'
-  ]
+  ],
+  mapping: {
+    'MarkdownRemark.frontmatter.category': 'MarkdownRemark.frontmatter.category_id'
+  }
 }

@@ -1,4 +1,5 @@
 ---
+category: /en/holy-places/
 templateKey: post
 locale: en
 pageKey: page_blogpost

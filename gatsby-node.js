@@ -43,7 +43,8 @@ exports.createPages = ({ actions, graphql }) => {
           // additional data can be passed via context
           context: {
             id,
-            locale
+            locale,
+            slug: edge.node.fields.slug
           }
         })
       }
@@ -111,6 +112,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   if (node.internal.type === 'MarkdownRemark') {
     const value = createFilePath({ node, getNode })
+    console.log('slug', value)
     createNodeField({
       name: 'slug',
       node,

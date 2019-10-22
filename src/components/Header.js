@@ -19,7 +19,7 @@ const Nav = ({ isSmall }) => {
   return (
     <Box fill='horizontal' direction='row' gap='xsmall' align='center' justify='center'>
       {nav.map(item => (
-        <Box key={item.id} border={item.border && { side: 'right', color: 'control' }} justify='center' align='center' basis={`1/${nav.length}`}>
+        <Box key={item.url} border={item.border && { side: 'right', color: 'control' }} justify='center' align='center' basis={`1/${nav.length}`}>
           <Link to={item.url}>
             <Button reverse plain label={<Text size={size}>{intl[item.intlId][locale]}</Text>} icon={item.icon} />
           </Link>

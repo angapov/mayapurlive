@@ -1,4 +1,5 @@
 ---
+category: /ru/holy-places/
 templateKey: post
 locale: ru
 pageKey: page_blogpost
