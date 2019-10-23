@@ -16,6 +16,9 @@ module.exports = {
     pagePrefix: ''
   },
   plugins: [
+    'gatsby-transformer-remark',
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -37,9 +40,6 @@ module.exports = {
         name: 'assets'
       }
     },
-    'gatsby-transformer-remark',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {

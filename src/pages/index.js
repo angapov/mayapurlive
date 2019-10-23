@@ -5,28 +5,44 @@ import Layout from '../components/Layout'
 import Home from '../components/home/Home'
 import PageSEO from '../components/seo'
 
-import testData from '../../content/test-data.json'
-
-const HomePage = ({ data }) => {
-  const { title } = data.site.siteMetadata
-  const { categories } = testData
-
+const IndexPage = ({ data: { allMarkdownRemark } }) => {
+  const categories = allMarkdownRemark.edges.map(({ node }) => ({ ...node.frontmatter, path: node.fields.slug }))
+  console.log('categories', categories)
   return (
-    <Layout title={title}>
-      <PageSEO title='Home' />
+    <Layout>
+      <PageSEO title='Guide' />
       <Home categories={categories} />
     </Layout>
   )
 }
 
-export default HomePage
+export default IndexPage
 
 export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-        postPrefix
+  query IndexPageQuery($locale: String) {
+    allMarkdownRemark(
+      sort: { order: ASC, fields: [frontmatter___order] }
+      filter: { frontmatter: { templateKey: { eq: "category" }, locale: { eq: $locale } } }
+    ) {
+      edges {
+        node {
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            templateKey
+            # image
+            image {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
       }
     }
   }

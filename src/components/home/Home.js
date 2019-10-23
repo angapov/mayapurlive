@@ -1,18 +1,17 @@
 import React from 'react'
-import { Box, ResponsiveContext } from 'grommet'
-import Placeholder from '../Placeholder'
+import { Box } from 'grommet'
+import Categories from './Categories'
+import Top from './Top'
 
-export default ({ events }) => {
-  const screen = React.useContext(ResponsiveContext)
+const Home = ({ categories }) => {
   return (
-    <Box flex>
-      <Box height={screen !== 'small' ? 'medium' : 'small'}>
-        <Placeholder text='Welcome to Sri Dham Mayapur!' />
-        <Placeholder text='Глобальный поиск' fill='horizontal' background='dark-2' height='45px' />
-      </Box>
-      <Box flex align='center' justify='center'>
-        <Placeholder text='Динамичный контент' height='xsmall' width='small' fill={false} />
+    <Box fill>
+      <Box fill='horizontal'><Top /></Box>
+      <Box pad='small'>
+        <Categories categories={categories} />
       </Box>
     </Box>
   )
 }
+
+export default Home

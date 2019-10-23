@@ -5,34 +5,44 @@ import Layout from '../components/Layout'
 import Guide from '../components/guide/Guide'
 import PageSEO from '../components/seo'
 
-const GuidePage = ({ data: { allMarkdownRemark } }) => {
-  const categories = allMarkdownRemark.edges.map(({ node }) => ({ title: node.frontmatter.title, path: node.fields.slug }))
-  console.log('categories', categories)
+const HomePage = ({ data }) => {
+  const { title } = data.site.siteMetadata
+  const posts = data.allMarkdownRemark.edges.map(({ node }) => ({ ...node.frontmatter, path: node.fields.slug }))
+  console.log('posts', posts)
+
   return (
-    <Layout>
-      <PageSEO title='Guide' />
-      <Guide categories={categories} />
+    <Layout title={title}>
+      <PageSEO title='Home' />
+      <Guide posts={posts} />
     </Layout>
   )
 }
 
-export default GuidePage
+export default HomePage
 
 export const pageQuery = graphql`
-  query GuidePageQuery($locale: String) {
+  query {
+    site {
+      siteMetadata {
+        title
+        postPrefix
+      }
+    }
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
-      filter: { frontmatter: { templateKey: { eq: "category" }, locale: { eq: $locale } } }
+      limit: 1000
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: {
+        # fileAbsolutePath: {regex: "/(\/content\/posts)/.*$/"},
+        frontmatter: { templateKey: { eq: "post" }, category: { frontmatter: { category_id: { eq: "/ru/holy-places/" } } } } }
     ) {
+      totalCount
       edges {
         node {
-          id
           fields {
             slug
           }
           frontmatter {
             title
-            templateKey
           }
         }
       }

@@ -1,20 +1,17 @@
 import React from 'react'
-import { Box, ResponsiveContext } from 'grommet'
-import Categories from './Categories'
+import { Box } from 'grommet'
 import Top from './Top'
+import Posts from '../posts/Posts'
 
-const Home = ({ categories }) => {
-  const screen = React.useContext(ResponsiveContext)
-  const isSmall = screen === 'small'
+export default ({ posts }) => {
   return (
-    <Box fill>
-      {/* <Box fill='horizontal' height={isSmall ? 'small' : 'medium'}><Top /></Box> */}
-      <Box fill='horizontal'><Top /></Box>
+    <Box flex>
+      <Box fill='horizontal'>
+        <Top />
+      </Box>
       <Box pad='small'>
-        <Categories categories={categories} />
+        <Posts posts={posts} />
       </Box>
     </Box>
   )
 }
-
-export default Home
