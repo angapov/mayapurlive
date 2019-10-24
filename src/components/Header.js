@@ -9,7 +9,8 @@ import { useLocale, useLocation } from '../lib'
 
 const Nav = ({ isSmall }) => {
   const locale = useLocale()
-  const size = isSmall ? 'small' : 'medium'
+  // const size = isSmall ? 'small' : 'medium'
+  const size = 'medium'
   const nav = [
     { border: true, url: '/guide', intlId: 'nav_guide', icon: <MapLocation size={size} color='control' /> },
     { border: true, url: '/today', intlId: 'nav_today', icon: <Alarm size={size} color='control' /> },
@@ -19,9 +20,9 @@ const Nav = ({ isSmall }) => {
   return (
     <Box fill='horizontal' direction='row' gap='xsmall' align='center' justify='center'>
       {nav.map(item => (
-        <Box key={item.url} border={item.border && { side: 'right', color: 'control' }} justify='center' align='center' basis={`1/${nav.length}`}>
+        <Box key={item.url} border={item.border && { side: 'right', color: 'control' }} justify='center' align='center' basis={`1/${nav.length}`} pad={isSmall && { top: 'small' }}>
           <Link to={item.url}>
-            <Button reverse plain label={<Text size={size}>{intl[item.intlId][locale]}</Text>} icon={item.icon} />
+            <Button reverse plain label={!isSmall && <Text size={size}>{intl[item.intlId][locale]}</Text>} icon={item.icon} />
           </Link>
         </Box>
       ))}

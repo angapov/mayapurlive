@@ -17,10 +17,10 @@ const Footer = () => {
           <Anchor href='mailto:haribol@mayapur.live' target='_blank'><Box align='center' justify='center'><Mail size={size} color='control' /></Box></Anchor>
         </Box>
         <Box align='center' justify='center' basis='1/3'>
-          <Anchor href='https://facebook.com/mayapur.live' target='_blank'><Box align='center' justify='center'><Facebook size={size} color='control' /></Box></Anchor>
+          <Anchor href='https://facebook.com/mayapur.live' rel='noopener' target='_blank'><Box align='center' justify='center'><Facebook size={size} color='control' /></Box></Anchor>
         </Box>
         <Box align='center' justify='center' basis='1/3'>
-          <Anchor href='https://instagram.com/mayapur.live' target='_blank'><Box align='center' justify='center'><Instagram size={size} color='control' /></Box></Anchor>
+          <Anchor href='https://instagram.com/mayapur.live' rel='noopener' target='_blank'><Box align='center' justify='center'><Instagram size={size} color='control' /></Box></Anchor>
         </Box>
       </Box>
       <Box fill='horizontal' direction='row' gap='xsmall' align='center' justify='center'>
