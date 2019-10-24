@@ -1,8 +1,8 @@
 import React from 'react'
 import Img from 'gatsby-image'
 
-export default ({ gatsbyImage }) => {
+export default ({ gatsbyImage, ...rest }) => {
   return (
-    <Img {...gatsbyImage} />
+    <Img {...gatsbyImage} {...rest} />
   )
 }

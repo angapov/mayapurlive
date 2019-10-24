@@ -33,7 +33,6 @@ export const pageQuery = graphql`
           frontmatter {
             title
             templateKey
-            # image
             image {
               childImageSharp {
                 fluid(maxWidth: 800) {
