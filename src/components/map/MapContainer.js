@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { geolocated } from 'react-geolocated'
+
 import Map from './MapElement'
 
 const geolocationOptions = {
@@ -39,10 +40,10 @@ class MapContainer extends React.Component {
   }
 
   render () {
-    const { results, size, isGeolocationAvailable, isGeolocationEnabled, coords, positionError } = this.props
+    const { places, isGeolocationAvailable, isGeolocationEnabled, coords, positionError } = this.props
     const { active, center, zoom } = this.state
     const geolocation = { isGeolocationAvailable, isGeolocationEnabled, coords, positionError }
-    return <Map size={size} results={results} active={active} handleClick={this.handleClick} center={center} zoom={zoom} handleBoundsChanged={this.handleBoundsChange} handleReset={this.handleReset} geolocation={geolocation} />
+    return <Map results={places} active={active} handleClick={this.handleClick} center={center} zoom={zoom} handleBoundsChanged={this.handleBoundsChange} handleReset={this.handleReset} geolocation={geolocation} />
   }
 }
 

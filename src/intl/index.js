@@ -1,21 +1,29 @@
 export default {
   defaultLocale: 'en',
   locales: ['en', 'ru'],
-  nav_guide: {
-    en: 'guide',
-    ru: 'гид'
+  nav_map: {
+    en: 'map',
+    ru: 'карта'
   },
-  nav_today: {
-    en: 'today',
-    ru: 'сегодня'
+  nav_stream: {
+    en: 'stream',
+    ru: 'трансляция'
   },
   nav_news: {
     en: 'news',
     ru: 'новости'
   },
-  nav_events: {
-    en: 'events',
-    ru: 'события'
+  nav_calendar: {
+    en: 'calendar',
+    ru: 'календарь'
+  },
+  nav_forum: {
+    en: 'forum',
+    ru: 'форум'
+  },
+  nav_shop: {
+    en: 'shop',
+    ru: 'магазин'
   },
   home_quote: {
     en: 'My idea is to attract people of the whole world to Mayapur.',
@@ -40,5 +48,9 @@ export default {
   footer_developed_by: {
     en: 'Developed by',
     ru: 'Разработано'
+  },
+  in_development: {
+    en: 'Feature in development...',
+    ru: 'Функционал в разработке...'
   }
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Text, Menu, ResponsiveContext, Button } from 'grommet'
-import { Language, MapLocation, Alarm, Announce, Schedule } from 'grommet-icons'
+import { Language, MapLocation, Channel, Announce, Schedule, Group, Cart } from 'grommet-icons'
 
 import Link from './Link'
 
@@ -12,15 +12,18 @@ const Nav = ({ isSmall }) => {
   // const size = isSmall ? 'small' : 'medium'
   const size = 'medium'
   const nav = [
-    { border: true, url: '/guide', intlId: 'nav_guide', icon: <MapLocation size={size} color='control' /> },
-    { border: true, url: '/today', intlId: 'nav_today', icon: <Alarm size={size} color='control' /> },
+    { border: true, url: '/map', intlId: 'nav_map', icon: <MapLocation size={size} color='control' /> },
+    { border: true, url: '/stream', intlId: 'nav_stream', icon: <Channel size={size} color='control' /> },
     { border: true, url: '/news', intlId: 'nav_news', icon: <Announce size={size} color='control' /> },
-    { border: false, url: '/events', intlId: 'nav_events', icon: <Schedule size={size} color='control' /> }
+    { border: true, url: '/calendar', intlId: 'nav_calendar', icon: <Schedule size={size} color='control' /> },
+    { border: true, url: '/forum', intlId: 'nav_forum', icon: <Group size={size} color='control' /> },
+    { border: false, url: '/shop', intlId: 'nav_shop', icon: <Cart size={size} color='control' /> }
   ]
   return (
-    <Box fill='horizontal' direction='row' gap='xsmall' align='center' justify='center'>
+    <Box fill='horizontal' direction='row' gap='xsmall' align='center' justify='stretch'>
       {nav.map(item => (
-        <Box key={item.url} border={item.border && { side: 'right', color: 'control' }} justify='center' align='center' basis={`1/${nav.length}`} pad={isSmall && { top: 'small' }}>
+        // <Box key={item.url} border={item.border && { side: 'right', color: 'control' }} justify='center' align='center' basis={`1/${nav.length}`} pad={isSmall && { top: 'small' }}>
+        <Box key={item.url} border={item.border && { side: 'right', color: 'control' }} justify='center' align='center' basis='full' pad={isSmall && { top: 'small' }}>
           <Link to={item.url}>
             <Button reverse plain label={!isSmall && <Text size={size}>{intl[item.intlId][locale]}</Text>} icon={item.icon} />
           </Link>

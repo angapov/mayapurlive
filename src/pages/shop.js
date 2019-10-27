@@ -2,24 +2,22 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import Events from '../components/events/Events'
 import PageSEO from '../components/seo'
 
-import testData from '../../content/test-data.json'
+import InDevelopment from '../components/InDevelopment'
 
-const EventsPage = ({ data }) => {
+const ShopPage = ({ data }) => {
   const { title } = data.site.siteMetadata
-  const { events } = testData
 
   return (
     <Layout title={title}>
-      <PageSEO title='Events' />
-      <Events events={events} />
+      <PageSEO title='Shop' />
+      <InDevelopment />
     </Layout>
   )
 }
 
-export default EventsPage
+export default ShopPage
 
 export const pageQuery = graphql`
   query {

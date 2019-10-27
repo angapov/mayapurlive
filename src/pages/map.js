@@ -2,25 +2,25 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import Guide from '../components/guide/Guide'
+import Map from '../components/map/Map'
 import PageSEO from '../components/seo'
 
-const GuidePage = ({ data }) => {
+const MapPage = ({ data }) => {
   const { title } = data.site.siteMetadata
   const posts = data.allMarkdownRemark.edges.map(({ node }) => ({ ...node.frontmatter, path: node.fields.slug }))
 
   return (
     <Layout title={title}>
       <PageSEO title='Home' />
-      <Guide posts={posts} />
+      <Map posts={posts} />
     </Layout>
   )
 }
 
-export default GuidePage
+export default MapPage
 
 export const pageQuery = graphql`
-  query GuideQuery($locale: String = "en") {
+  query MapQuery($locale: String = "en") {
     site {
       siteMetadata {
         title
@@ -42,6 +42,13 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            image {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }
