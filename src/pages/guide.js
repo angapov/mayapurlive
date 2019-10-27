@@ -5,10 +5,9 @@ import Layout from '../components/Layout'
 import Guide from '../components/guide/Guide'
 import PageSEO from '../components/seo'
 
-const HomePage = ({ data }) => {
+const GuidePage = ({ data }) => {
   const { title } = data.site.siteMetadata
   const posts = data.allMarkdownRemark.edges.map(({ node }) => ({ ...node.frontmatter, path: node.fields.slug }))
-  console.log('posts', posts)
 
   return (
     <Layout title={title}>
@@ -18,10 +17,10 @@ const HomePage = ({ data }) => {
   )
 }
 
-export default HomePage
+export default GuidePage
 
 export const pageQuery = graphql`
-  query {
+  query GuideQuery($locale: String = "en") {
     site {
       siteMetadata {
         title
@@ -32,8 +31,8 @@ export const pageQuery = graphql`
       limit: 1000
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
-        # fileAbsolutePath: {regex: "/(\/content\/posts)/.*$/"},
-        frontmatter: { templateKey: { eq: "post" }, category: { frontmatter: { category_id: { eq: "/ru/holy-places/" } } } } }
+        frontmatter: { templateKey: { eq: "post" }, locale: { eq: $locale } }
+      }
     ) {
       totalCount
       edges {

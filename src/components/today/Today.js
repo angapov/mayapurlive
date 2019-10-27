@@ -8,7 +8,8 @@ export default ({ today }) => {
   return (
     <Box flex fill align='center' justify='center'>
       <GoogleCalendar
-        src='MnVubmc1YmN2dmlzMmMwbzFtbGNibGsyc29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'
+        // src='MnVubmc1YmN2dmlzMmMwbzFtbGNibGsyc29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'
+        src='information.department.rc@gmail.com'
         mode='agenda'
         showTitle={false}
         lang={locale}

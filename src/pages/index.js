@@ -7,19 +7,18 @@ import PageSEO from '../components/seo'
 
 const IndexPage = ({ data: { allMarkdownRemark } }) => {
   const categories = allMarkdownRemark.edges.map(({ node }) => ({ ...node.frontmatter, path: node.fields.slug }))
-  console.log('categories', categories)
   return (
     <Layout>
-      <PageSEO title='Guide' />
+      <PageSEO title='Home' />
       <Home categories={categories} />
     </Layout>
   )
 }
 
 export default IndexPage
-
+// FIXME: hardcoded default locale
 export const pageQuery = graphql`
-  query IndexPageQuery($locale: String) {
+  query IndexPageQuery($locale: String = "en") {
     allMarkdownRemark(
       sort: { order: ASC, fields: [frontmatter___order] }
       filter: { frontmatter: { templateKey: { eq: "category" }, locale: { eq: $locale } } }

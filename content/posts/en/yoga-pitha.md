@@ -4,6 +4,7 @@ templateKey: post
 locale: en
 pageKey: page_blogpost
 title: Yoga Pitha
+image: ./yoga-pitha.jpg
 date: 2018-12-07T15:04:10.000Z
 description: Hello World Blog Post EN
 tags:

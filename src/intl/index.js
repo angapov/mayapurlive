@@ -36,5 +36,9 @@ export default {
   footer_project_team: {
     en: 'Project Team',
     ru: 'Команда проекта'
+  },
+  footer_developed_by: {
+    en: 'Developed by',
+    ru: 'Разработано'
   }
 }

@@ -4,6 +4,7 @@ templateKey: post
 locale: ru
 pageKey: page_blogpost
 title: Йогапитх
+image: ./yoga-pitha.jpg
 date: 2018-12-07T15:04:10.000Z
 description: Привет мир Пост RU
 tags:

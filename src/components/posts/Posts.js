@@ -1,15 +1,15 @@
 import React from 'react'
 import Link from '../Link'
-
+import Image from '../Image'
 import { Box, Heading, Grid, Stack, ResponsiveContext } from 'grommet'
 
 const Post = ({ post, size }) => (
   <Link to={post.path}>
-    <Box margin='xsmall' flex height='small' style={{ minHeight: '200px', minWidth: '300px' }} data-testid={`${post.title}.category`}>
+    <Box margin={{ left: 'xsmall', right: 'xsmall' }} height='small' style={{ minHeight: '200px', minWidth: '300px' }} data-testid={`${post.title}.category`}>
       <Stack fill>
-        <Box fill background='dark-1' />
+        <Box background={!post.image && 'dark-1'} fill>{post.image && <Image gatsbyImage={post.image.childImageSharp} />}</Box>
         <Box fill justify='end'>
-          <Box fill='horizontal' align='center' justify='center' background={{ color: 'black', opacity: 'medium' }}><Heading level={3}>{post.title}</Heading></Box>
+          <Box fill='horizontal' align='center' justify='center' background={{ color: 'black', opacity: 'medium' }}><Heading color='light-1' level={3}>{post.title}</Heading></Box>
         </Box>
       </Stack>
     </Box>

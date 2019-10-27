@@ -25,7 +25,8 @@ const useLocation = () => {
 
 const useLocale = () => {
   const { location } = useLocation()
-  const locale = location.pathname.split('/').filter(part => intl.locales.includes(part))[0] || intl.defaultLocale
+  const localeFromPath = location.pathname.split('/').filter(part => intl.locales.includes(part))[0]
+  const locale = localeFromPath || intl.defaultLocale
   return locale
 }
 
