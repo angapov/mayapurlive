@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Text, Menu, ResponsiveContext, Button } from 'grommet'
-import { Language, MapLocation, Channel, Announce, Schedule, Group, Cart } from 'grommet-icons'
+import { Language, MapLocation, Channel, Announce, Alarm, Schedule, Group, Cart } from 'grommet-icons'
 
 import Link from './Link'
 
@@ -14,8 +14,9 @@ const Nav = ({ isSmall }) => {
   const nav = [
     { border: true, url: '/map', intlId: 'nav_map', icon: <MapLocation size={size} color='control' /> },
     { border: true, url: '/stream', intlId: 'nav_stream', icon: <Channel size={size} color='control' /> },
+    { border: true, url: '/today', intlId: 'nav_today', icon: <Alarm size={size} color='control' /> },
+    // { border: true, url: '/calendar', intlId: 'nav_calendar', icon: <Schedule size={size} color='control' /> },
     { border: true, url: '/news', intlId: 'nav_news', icon: <Announce size={size} color='control' /> },
-    { border: true, url: '/calendar', intlId: 'nav_calendar', icon: <Schedule size={size} color='control' /> },
     { border: true, url: '/forum', intlId: 'nav_forum', icon: <Group size={size} color='control' /> },
     { border: false, url: '/shop', intlId: 'nav_shop', icon: <Cart size={size} color='control' /> }
   ]

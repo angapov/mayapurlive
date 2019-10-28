@@ -7,7 +7,7 @@ const googleCalendar = 'information.department.rc@gmail.com' // FIXME: remove ha
 
 export default ({ events }) => {
   const locale = useLocale()
-  const mode = 'month'
+  const mode = 'agenda'
   return (
     <Box flex>
       <GoogleCalendar

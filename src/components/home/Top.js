@@ -50,17 +50,17 @@ const Services = () => {
   const isSmall = screen === 'small'
   const textSize = isSmall ? 'small' : 'medium'
   const services = [
-    { id: 'visa', title: { en: 'Get Visa', ru: 'Получить визу' } },
+    // { id: 'visa', title: { en: 'Get Visa', ru: 'Получить визу' } },
     { id: 'flights', title: { en: 'Search Flights', ru: 'Найти билеты' } },
-    { id: 'rent', title: { en: 'Rent Room', ru: 'Арендовать жилье' } },
-    { id: 'tour', title: { en: 'Book Tour', ru: 'Бронировать тур' } }
+    // { id: 'rent', title: { en: 'Rent Room', ru: 'Арендовать жилье' } },
+    // { id: 'tour', title: { en: 'Book Tour', ru: 'Бронировать тур' } }
   ]
   return (
     <>
-      <Box height={{ max: 'xsmall' }} fill='horizontal' align='center' justify='center' direction='row' pad='small' round='small' gap='small'>
+      <Box height={isSmall ? '40px' : 'xsmall'} fill='horizontal' align='center' justify='center' direction='row' pad='small' round='small' gap='small'>
         {services.map(service => (
-          <Box pad='small' align='center' justify='center' key={service.title[locale]} basis='full'>
-            <Box elevation='small' border={{ color: 'control' }} round='xsmall' background={!isSmall && { color: 'black', opacity: 'strong' }} width='small' height='xsmall' align='center' justify='center'>
+          <Box align='center' justify='center' key={service.title[locale]} basis='full' fill>
+            <Box border={isSmall} round background={!isSmall && { color: 'black', opacity: 'strong' }} width='small' height='xxsmall' align='center' justify='center'>
               <Button onClick={() => setOpen(service.id)} fill plain label={<Box fill align='center' justify='center'><Text textAlign='center' size={textSize} color='light-1' weight='bold'>{service.title[locale]}</Text></Box>} />
             </Box>
           </Box>
@@ -68,8 +68,8 @@ const Services = () => {
       </Box>
       {open && (
         <Layer full={isSmall} onClickOutside={() => setOpen(null)}>
-          <Box height='large' width='large' align='center' justify='center'>
-            {open === 'flights' ? <Flights width={isSmall ? '100%' : '650px'} height='370px' /> : <InDevelopment />}
+          <Box height={isSmall ? '100vh' : '300px'} width={isSmall ? '100vw' : '640px'} align='center' justify='center' pad='small'>
+            <Box flex fill align='center' justify='center'>{open === 'flights' ? <Flights width={isSmall ? '100%' : '620px'} height={isSmall ? '100%' : '300px'} /> : <InDevelopment />}</Box>
           </Box>
           <Button onClick={() => setOpen(null)} icon={<LinkPrevious color='control' />} />
         </Layer>
@@ -78,7 +78,7 @@ const Services = () => {
   )
 }
 
-const Flights = ({ width = 620, height = 250 }) => {
+const Flights = ({ width = '100%', height = '100%' }) => {
   const locale = useLocale()
   const src = { // FIXME: remove hardcode
     ru: '//www.travelpayouts.com/widgets/7c669dfab8d675d4dfe6d0bf8be8a44d.html?v=1831',
@@ -120,8 +120,10 @@ const Top = () => {
         <Box fill justify='between'>
           <Quote lang={locale} prabhupadImage={data.prabhupadImage} />
           {/* {!isSmall && <Box fill='horizontal' align='center' justify='center'><Flights /></Box>} */}
-          {!isSmall && <Services />}
-          <Search lang={locale} onSubmit={value => console.log(value)} />
+          <Box fill='horizontal' align='center'>
+            {!isSmall && <Services />}
+            <Search lang={locale} onSubmit={value => console.log(value)} />
+          </Box>
         </Box>
       </Stack>
       {/* {isSmall && <Box fill='horizontal' align='center' justify='center'><Flights width='100%' height='370' /></Box>} */}

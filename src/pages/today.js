@@ -2,22 +2,21 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
+import Today from '../components/today/Today'
 import PageSEO from '../components/seo'
 
-import Stream from '../components/stream/Stream'
-
-const CalendarPage = ({ data }) => {
+const TodayPage = ({ data }) => {
   const { title } = data.site.siteMetadata
 
   return (
-    <Layout title={title}>
-      <PageSEO title='Stream' />
-      <Stream />
+    <Layout title={title} showFooter={false}>
+      <PageSEO title='Today' />
+      <Today />
     </Layout>
   )
 }
 
-export default CalendarPage
+export default TodayPage
 
 export const pageQuery = graphql`
   query {

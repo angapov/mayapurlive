@@ -9,7 +9,7 @@ const CalendarPage = ({ data }) => {
   const { title } = data.site.siteMetadata
 
   return (
-    <Layout title={title}>
+    <Layout title={title} showFooter={false}>
       <PageSEO title='Calendar' />
       <Calendar />
     </Layout>

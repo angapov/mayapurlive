@@ -9,6 +9,10 @@ export default {
     en: 'stream',
     ru: 'трансляция'
   },
+  nav_today: {
+    en: 'today',
+    ru: 'сегодня'
+  },
   nav_news: {
     en: 'news',
     ru: 'новости'

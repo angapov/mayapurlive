@@ -3,6 +3,9 @@ import { Box, Text, Grid, Button } from 'grommet'
 import { Facebook, Favorite, Send, Mail } from 'grommet-icons'
 import Link from '../Link'
 
+import sharanaprada from './sharanaprada.jpg'
+import vasiliy from './vasiliy.jpg'
+
 const SocialAccounts = ({ facebook, telegram, email }) => {
   return (
     <Box direction='row' gap='xsmall'>
@@ -13,10 +16,10 @@ const SocialAccounts = ({ facebook, telegram, email }) => {
   )
 }
 
-const TeamMember = ({ name, description, facebook, telegram, email }) => {
+const TeamMember = ({ name, description, facebook, telegram, email, avatar }) => {
   return (
     <Box align='center' justify='center' style={{ maxHeight: '150px' }}>
-      <Box round='xlarge' height='xsmall' width='xsmall' background='dark-1' />
+      <Box round='xlarge' height='xsmall' width='xsmall' background={avatar ? { image: `url(${avatar})` } : 'dark-1'} />
       <Box direction='row' gap='xsmall'><Text>{name}</Text><SocialAccounts facebook={facebook} telegram={telegram} email={email} /></Box>
       <Box direction='row' gap='xsmall'><Link to='/support-project'><Favorite size='small' color='red' /> {description}</Link></Box>
     </Box>
@@ -25,10 +28,10 @@ const TeamMember = ({ name, description, facebook, telegram, email }) => {
 
 export default ({ team }) => {
   const members = [
-    { name: 'Sharanaprada das', description: 'Project Management' },
+    { name: 'Sharanaprada das', description: 'Project Management', avatar: sharanaprada },
     { name: 'Bhakta Timofey', description: 'Site development', email: 'tim@mayapur.live', facebook: 'timpchelintsev' },
     { name: 'Prema Manjari d.d.', description: 'Content creation' },
-    { name: 'Bhakta Vasiliy', description: 'News Management' },
+    { name: 'Bhakta Vasiliy', description: 'News Management', avatar: vasiliy },
     { name: 'You?', description: 'Join Team;)' }
   ]
   return (
