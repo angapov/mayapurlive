@@ -7,11 +7,11 @@ import PageSEO from '../components/seo'
 
 const MapPage = ({ data }) => {
   const { title } = data.site.siteMetadata
-  const posts = data.allMarkdownRemark.edges.map(({ node }) => ({ ...node.frontmatter, path: node.fields.slug }))
+  const posts = data.allMarkdownRemark.edges.map(({ node }) => ({ id: node.id, ...node.frontmatter, path: node.fields.slug }))
 
   return (
-    <Layout title={title}>
-      <PageSEO title='Home' />
+    <Layout title={title} showFooter={false}>
+      <PageSEO title='Map' />
       <Map posts={posts} />
     </Layout>
   )
@@ -37,11 +37,13 @@ export const pageQuery = graphql`
       totalCount
       edges {
         node {
+          id
           fields {
             slug
           }
           frontmatter {
             title
+            location
             image {
               childImageSharp {
                 fluid(maxWidth: 800) {

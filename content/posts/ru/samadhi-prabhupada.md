@@ -7,6 +7,9 @@ title: Самадхи Шрилы Прабхупады
 image: ./samadhi-prabhupada.jpg
 date: 2018-12-07T15:04:10.000Z
 description: Привет мир Пост RU
+location:
+  - 23.42361111
+  - 88.38805556
 tags:
   - тег1
   - тег2

@@ -23,7 +23,7 @@ class MapContainer extends React.Component {
   }
 
   handleClick = async (marker) => {
-    this.setState({ active: marker, center: [marker.location.coordinates[1], marker.location.coordinates[0]] })
+    this.setState({ active: marker, center: [marker.location[0], marker.location[1]] })
   }
 
   handleBoundsChanged = ({ center, zoom, bounds, initial }) => {

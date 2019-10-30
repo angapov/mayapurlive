@@ -7,6 +7,9 @@ title: Йогапитх
 image: ./yoga-pitha.jpg
 date: 2018-12-07T15:04:10.000Z
 description: Привет мир Пост RU
+location:
+  - 23.4383
+  - 88.3927
 tags:
   - тег1
   - тег2
