@@ -5,11 +5,13 @@ import Layout from '../components/Layout'
 import Home from '../components/home/Home'
 import PageSEO from '../components/seo'
 
-const IndexPage = ({ data: { allMarkdownRemark } }) => {
+import intl from '../intl'
+
+const IndexPage = ({ pageContext: { locale = intl.defaultLocale }, data: { allMarkdownRemark } }) => {
   const categories = allMarkdownRemark.edges.map(({ node }) => ({ ...node.frontmatter, path: node.fields.slug }))
   return (
     <Layout>
-      <PageSEO title='Home' />
+      <PageSEO title='Home' lang={locale} />
       <Home categories={categories} />
     </Layout>
   )

@@ -4,15 +4,14 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import PageSEO from '../components/seo'
 import Forum from '../components/forum/Forum'
-// import InDevelopment from '../components/InDevelopment'
+import intl from '../intl'
 
-const ForumPage = ({ data }) => {
+const ForumPage = ({ pageContext: { locale = intl.defaultLocale }, data }) => {
   const { title } = data.site.siteMetadata
 
   return (
     <Layout title={title}>
-      <PageSEO title='Forum' />
-      {/* <InDevelopment /> */}
+      <PageSEO title='Forum' lang={locale} />
       <Forum />
     </Layout>
   )
@@ -25,7 +24,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        postPrefix
       }
     }
   }

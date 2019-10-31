@@ -5,12 +5,14 @@ import Layout from '../components/Layout'
 import Calendar from '../components/calendar/Calendar'
 import PageSEO from '../components/seo'
 
-const CalendarPage = ({ data }) => {
+import intl from '../intl'
+
+const CalendarPage = ({ pageContext: { locale = intl.defaultLocale }, data }) => {
   const { title } = data.site.siteMetadata
 
   return (
     <Layout title={title} showFooter={false}>
-      <PageSEO title='Calendar' />
+      <PageSEO title='Calendar' lang={locale} />
       <Calendar />
     </Layout>
   )
@@ -23,7 +25,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        postPrefix
       }
     }
   }

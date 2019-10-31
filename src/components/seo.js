@@ -18,7 +18,6 @@ const PageSEO = ({ description, lang, meta, title }) => {
           siteMetadata {
             title
             description
-            author
           }
         }
       }
@@ -55,10 +54,10 @@ const PageSEO = ({ description, lang, meta, title }) => {
           name: 'twitter:card',
           content: 'summary'
         },
-        {
-          name: 'twitter:creator',
-          content: site.siteMetadata.author
-        },
+        // {
+        //   name: 'twitter:creator',
+        //   content: site.siteMetadata.author
+        // },
         {
           name: 'twitter:title',
           content: title

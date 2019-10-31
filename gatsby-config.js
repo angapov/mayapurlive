@@ -6,16 +6,14 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     title: 'Mayapur Live',
-    author: 'Mayapur Information Department',
-    description: 'A Gatsby WordPress Starter with special love for Netlify',
-    siteUrl: 'https://mayapur.now.sh',
+    description: '"My idea is to attract people of the whole world to Māyāpur." Srila Prabhupada, the Founder-Ācārya of ISKCON',
+    siteUrl: 'https://mayapur.live',
     social: {
       twitter: 'MayapurNews'
-    },
-    postPrefix: '/blog',
-    pagePrefix: ''
+    }
   },
   plugins: [
+    'gatsby-plugin-sitemap',
     'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
@@ -60,8 +58,7 @@ module.exports = {
     },
     'gatsby-plugin-offline',
     'gatsby-plugin-styled-components',
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-netlify-cms'
+    'gatsby-plugin-react-helmet'
   ],
   mapping: {
     'MarkdownRemark.frontmatter.category': 'MarkdownRemark.frontmatter.category_id'
