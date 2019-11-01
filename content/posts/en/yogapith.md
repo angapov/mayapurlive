@@ -2,17 +2,15 @@
 category: /en/holy-places/
 templateKey: post
 locale: en
-pageKey: page_blogpost
-title: Yoga Pitha
-image: ./yoga-pitha.jpg
+title: Yogapith
+image: ../../images/posts/yogapith.jpg
 date: 2018-12-07T15:04:10.000Z
-description: Hello World Blog Post EN
+description: The appearance place of the Lord Sri Caitanya Mahaprabhu
 location:
   - 23.4383
   - 88.3927
 tags:
-  - tag1
-  - tag2
+  - appearanceplaces
 ---
 
 The appearance place of the Lord is known as Yoga Pitha, and is situated at the very center of Mayapur. "Yoga" means connection, "Yoga Pitha" means the place where the Lord connects Himself to this earth, or descends to this earth. This is the home of Jagannatha Mishra. Another meaning of Yoga Pitha is "a meeting place." At this place all the associates of the Lord meet with Him to participate in His pastimes.   In 1893, Bhaktivinoda Thakura established Yoga Pitha as the actual site of Lord Caitanya's appearance. He personally collected the funds to purchase this land and built a small temple here. This was completed in 1906 at which time he also installed the deities of Gaura-Narayana and His two wives, Laksmipriya and Vishnupriya.

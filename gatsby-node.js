@@ -50,24 +50,30 @@ exports.createPages = ({ actions, graphql }) => {
       }
     })
     // Tag pages:
-    let tags = []
+    const tags = new Map()
     // Iterate through each post, putting all found tags into 'tags'
     posts.forEach(edge => {
-      if (_.get(edge, 'node.frontmatter.tags')) {
-        tags = tags.concat(edge.node.frontmatter.tags)
+      const locale = edge.node.frontmatter.locale
+      const _tags = _.get(edge, 'node.frontmatter.tags')
+      if (_tags) {
+        _tags.forEach(_tag => {
+          tags.set(_tag, { value: _tag, locale })
+        })
+        // tags.concat(edge.node.frontmatter.tags.map(tag => ({ value: tag, locale })))
       }
     })
     // Eliminate duplicate tags
-    tags = _.uniq(tags)
+    // tags = _.uniq(tags)
     // Make tag pages
-    tags.forEach(tag => {
-      const tagPath = `/tags/${_.kebabCase(tag)}/`
+    tags.forEach(({ value, locale }) => {
+      const tagPath = `${locale}/tags/${_.kebabCase(value)}/`
 
       createPage({
         path: tagPath,
         component: path.resolve('src/templates/tags.js'),
         context: {
-          tag
+          tag: value,
+          locale
         }
       })
     })

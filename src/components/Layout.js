@@ -35,8 +35,6 @@ const customTheme = deepMerge(dark, {
   }
 })
 
-console.log('theme', customTheme)
-
 export default ({ children, showFooter = true, showChat = false }) => (
   <Grommet full theme={customTheme}>
     <GlobalStyle />

@@ -6,12 +6,14 @@ import PageSEO from '../components/seo'
 
 import InDevelopment from '../components/InDevelopment'
 
-const ShopPage = ({ data }) => {
+import intl from '../intl'
+
+const ShopPage = ({ pageContext: { locale = intl.defaultLocale }, data }) => {
   const { title } = data.site.siteMetadata
 
   return (
     <Layout title={title}>
-      <PageSEO title='Shop' />
+      <PageSEO title={intl.shop_title[locale]} lang={locale} />
       <InDevelopment />
     </Layout>
   )

@@ -6,12 +6,14 @@ import PageSEO from '../components/seo'
 
 import Stream from '../components/stream/Stream'
 
-const CalendarPage = ({ data }) => {
+import intl from '../intl'
+
+const CalendarPage = ({ pageContext: { locale = intl.defaultLocale }, data }) => {
   const { title } = data.site.siteMetadata
 
   return (
     <Layout title={title}>
-      <PageSEO title='Stream' />
+      <PageSEO title={intl.stream_title[locale]} lang={locale} />
       <Stream />
     </Layout>
   )

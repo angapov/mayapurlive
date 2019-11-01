@@ -2,14 +2,14 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Category from '../components/posts/Category'
 import Layout from '../components/Layout'
-import Seo from '../components/seo'
+import PageSEO from '../components/seo'
 
 const CategoryPage = ({ pageContext: { locale, slug }, data: { markdownRemark, allMarkdownRemark } }) => {
   const posts = allMarkdownRemark.edges.map(({ node }) => ({ ...node.frontmatter, path: node.fields.slug }))
   const category = { htmlAst: markdownRemark.htmlAst, ...markdownRemark.frontmatter, posts }
   return (
     <Layout locale={locale}>
-      <Seo title={category.title} />
+      <PageSEO title={category.title} lang={locale} />
       <Category category={category} />
     </Layout>
   )

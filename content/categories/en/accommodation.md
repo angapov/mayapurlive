@@ -3,6 +3,6 @@ category_id: /en/accommodation/
 templateKey: category
 locale: en
 title: Accommodation
-image: ./accommodation.jpg
+image: ../../images/categories/accommodation.jpg
 order: 2
 ---

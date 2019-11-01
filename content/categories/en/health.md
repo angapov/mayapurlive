@@ -3,6 +3,6 @@ category_id: /en/health/
 templateKey: category
 locale: en
 title: Health
-image: ./health.jpg
+image: ../../images/categories/health.jpg
 order: 5
 ---

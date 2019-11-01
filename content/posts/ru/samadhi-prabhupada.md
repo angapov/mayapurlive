@@ -4,15 +4,15 @@ templateKey: post
 locale: ru
 pageKey: page_blogpost
 title: Самадхи Шрилы Прабхупады
-image: ./samadhi-prabhupada.jpg
+image: ../../images/posts/samadhi-prabhupada.jpg
 date: 2018-12-07T15:04:10.000Z
 description: Привет мир Пост RU
 location:
   - 23.42361111
   - 88.38805556
 tags:
-  - тег1
-  - тег2
+  - прабхупада
+  - самадхи
 ---
 
 В Самадхи установлено мурти Шрилы Прабхупады из латуни, больше, чем в натуральную величину и хранится гирлянда, которая украшала Его Божественную Милость.

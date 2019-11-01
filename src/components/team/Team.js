@@ -21,7 +21,7 @@ const TeamMember = ({ name, description, facebook, telegram, email, avatar }) =>
     <Box align='center' justify='center' style={{ maxHeight: '150px' }}>
       <Box round='xlarge' height='xsmall' width='xsmall' background={avatar ? { image: `url(${avatar})` } : 'dark-1'} />
       <Box direction='row' gap='xsmall'><Text>{name}</Text><SocialAccounts facebook={facebook} telegram={telegram} email={email} /></Box>
-      <Box direction='row' gap='xsmall'><Link to='/support-project'><Favorite size='small' color='red' /> {description}</Link></Box>
+      <Box direction='row' gap='xsmall'><Link to='/support-project'>{description}</Link></Box>
     </Box>
   )
 }

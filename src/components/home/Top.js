@@ -12,7 +12,7 @@ const Search = ({ onSubmit, lang = 'en' }) => {
   const size = React.useContext(ResponsiveContext)
   const isSmall = size === 'small'
   return (
-    <Box align='center' justify='center' fill='horizontal' direction='row' gap='xsmall' background={{ color: 'black', opacity: 'medium' }}>
+    <Box align='center' justify='center' fill='horizontal' direction='row' gap='xsmall' background={!isSmall ? { color: 'black', opacity: 'medium' } : 'background'}>
       <Form onSubmit={onSubmit} style={{ width: '100%' }}>
         <Box direction='row' fill gap='small' background={{ dark: true }} pad={!isSmall && 'xsmall'}>
           <FormField name='search' style={{ width: '100%' }}>
@@ -51,16 +51,16 @@ const Services = () => {
   const textSize = isSmall ? 'small' : 'medium'
   const services = [
     // { id: 'visa', title: { en: 'Get Visa', ru: 'Получить визу' } },
-    { id: 'flights', title: { en: 'Search Flights', ru: 'Найти билеты' } },
+    { id: 'flights', title: { en: 'Search Flights', ru: 'Найти билеты' } }
     // { id: 'rent', title: { en: 'Rent Room', ru: 'Арендовать жилье' } },
     // { id: 'tour', title: { en: 'Book Tour', ru: 'Бронировать тур' } }
   ]
   return (
     <>
-      <Box height={isSmall ? '40px' : 'xsmall'} fill='horizontal' align='center' justify='center' direction='row' pad='small' round='small' gap='small'>
+      <Box height={isSmall ? 'xxsmall' : 'xsmall'} fill='horizontal' align='center' justify='center' direction='row' pad='small' round='small' gap='small'>
         {services.map(service => (
           <Box align='center' justify='center' key={service.title[locale]} basis='full' fill>
-            <Box border={isSmall} round background={!isSmall && { color: 'black', opacity: 'strong' }} width='small' height='xxsmall' align='center' justify='center'>
+            <Box round background={{ color: 'black', opacity: 'strong' }} width='small' height='xxsmall' align='center' justify='center'>
               <Button onClick={() => setOpen(service.id)} fill plain label={<Box fill align='center' justify='center'><Text textAlign='center' size={textSize} color='light-1' weight='bold'>{service.title[locale]}</Text></Box>} />
             </Box>
           </Box>
@@ -119,15 +119,13 @@ const Top = () => {
         </Box>
         <Box fill justify='between'>
           <Quote lang={locale} prabhupadImage={data.prabhupadImage} />
-          {/* {!isSmall && <Box fill='horizontal' align='center' justify='center'><Flights /></Box>} */}
           <Box fill='horizontal' align='center'>
-            {!isSmall && <Services />}
-            <Search lang={locale} onSubmit={value => console.log(value)} />
+            <Services />
+            {!isSmall && <Search lang={locale} onSubmit={value => console.log(value)} />}
           </Box>
         </Box>
       </Stack>
-      {/* {isSmall && <Box fill='horizontal' align='center' justify='center'><Flights width='100%' height='370' /></Box>} */}
-      {isSmall && <Box fill='horizontal' align='center' justify='center'><Services /></Box>}
+      {isSmall && <Search lang={locale} onSubmit={value => console.log(value)} />}
     </Box>
   )
 }

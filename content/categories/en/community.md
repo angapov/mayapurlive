@@ -3,6 +3,6 @@ category_id: /en/community/
 templateKey: category
 locale: en
 title: Community
-image: ./community.jpg
+image: ../../images/categories/community.jpg
 order: 1
 ---

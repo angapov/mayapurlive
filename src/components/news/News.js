@@ -9,10 +9,10 @@ import { useLocale } from '../../lib'
 const FacebookPagePlugin = ({ width, height, language = 'en_US' }) => (
   <FacebookProvider appId='610493882762259' wait={false} language={`${language}_${language.toUpperCase()}`}>
     <Page
-      // href='https://www.facebook.com/mayapur.live'
       href='https://www.facebook.com/sri.dham.mayapur'
       tabs='timeline'
       adaptContainerWidth={false}
+      // adaptContainerWidth
       smallHeader
       hideCover
       width={width}
@@ -29,8 +29,8 @@ const News = () => {
         {({ size }) => {
           console.log('size', size.width, size.height)
           return (
-            <Box fill flex align='center' justify='start'>
-              <FacebookPagePlugin width={size.width} height={size.height} language={locale} />
+            <Box height={{ min: '100vh' }} fill flex align='center' justify='start'>
+              {size.width && size.height ? <FacebookPagePlugin width={size.width} height={size.height} language={locale} /> : null}
             </Box>
           )
         }}

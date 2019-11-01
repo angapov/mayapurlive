@@ -5,21 +5,20 @@ import Layout from '../components/Layout'
 import Team from '../components/team/Team'
 import PageSEO from '../components/seo'
 
-import testData from '../../content/test-data.json'
+import intl from '../intl'
 
-const EventsPage = ({ data }) => {
+const TeamPage = ({ pageContext: { locale = intl.defaultLocale }, data }) => {
   const { title } = data.site.siteMetadata
-  const { team } = testData
 
   return (
     <Layout title={title}>
-      <PageSEO title='Team' />
-      <Team team={team} />
+      <PageSEO title={intl.footer_project_team[locale]} lang={locale} />
+      <Team />
     </Layout>
   )
 }
 
-export default EventsPage
+export default TeamPage
 
 export const pageQuery = graphql`
   query {

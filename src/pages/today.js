@@ -5,12 +5,14 @@ import Layout from '../components/Layout'
 import Today from '../components/today/Today'
 import PageSEO from '../components/seo'
 
-const TodayPage = ({ data }) => {
+import intl from '../intl'
+
+const TodayPage = ({ pageContext: { locale = intl.defaultLocale }, data }) => {
   const { title } = data.site.siteMetadata
 
   return (
     <Layout title={title} showFooter={false}>
-      <PageSEO title='Today' />
+      <PageSEO title={intl.today_title[locale]} lang={locale} />
       <Today />
     </Layout>
   )

@@ -9,7 +9,10 @@ module.exports = {
     description: '"My idea is to attract people of the whole world to Māyāpur." Srila Prabhupada, the Founder-Ācārya of ISKCON',
     siteUrl: 'https://mayapur.live',
     social: {
-      twitter: 'MayapurNews'
+      email: 'haribol@mayapur.live',
+      facebook: 'https://facebook.com/sri.dham.mayapur',
+      instagram: 'https://instagram.com/sri_dham_mayapur',
+      googleGroup: 'Mayapur-Forum'
     }
   },
   plugins: [
@@ -34,8 +37,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/content/assets`,
-        name: 'assets'
+        path: `${__dirname}/content/images`,
+        name: 'images'
       }
     },
     {
@@ -53,7 +56,7 @@ module.exports = {
         background_color: '#000000',
         theme_color: '#000000',
         display: 'standalone',
-        icon: 'content/assets/icon.jpg'
+        icon: 'content/images/icon.jpg'
       }
     },
     'gatsby-plugin-offline',

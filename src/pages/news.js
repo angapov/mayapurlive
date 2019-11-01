@@ -5,16 +5,14 @@ import Layout from '../components/Layout'
 import News from '../components/news/News'
 import PageSEO from '../components/seo'
 
-import testData from '../../content/test-data.json'
+import intl from '../intl'
 
-const NewsPage = ({ data }) => {
+const NewsPage = ({ pageContext: { locale = intl.defaultLocale }, data }) => {
   const { title } = data.site.siteMetadata
-  const { news } = testData
-
   return (
     <Layout title={title}>
-      <PageSEO title='News' />
-      <News news={news} />
+      <PageSEO title={intl.news_title[locale]} lagn={locale} />
+      <News />
     </Layout>
   )
 }

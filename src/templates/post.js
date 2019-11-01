@@ -2,13 +2,13 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Post from '../components/posts/Post'
 import Layout from '../components/Layout'
-import Seo from '../components/seo'
+import PageSEO from '../components/seo'
 
 const PostPage = ({ pageContext: { locale }, data: { markdownRemark } }) => {
   const post = { htmlAst: markdownRemark.htmlAst, ...markdownRemark.frontmatter }
   return (
     <Layout locale={locale}>
-      <Seo title={post.title} />
+      <PageSEO title={post.title} lang={locale} />
       <Post post={post} />
     </Layout>
   )

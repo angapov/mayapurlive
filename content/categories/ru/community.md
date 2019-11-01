@@ -3,6 +3,6 @@ category_id: /ru/community/
 templateKey: category
 locale: ru
 title: Община
-image: ./community.jpg
+image: ../../images/categories/community.jpg
 order: 1
 ---

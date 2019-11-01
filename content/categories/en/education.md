@@ -3,6 +3,6 @@ category_id: /en/education/
 templateKey: category
 locale: en
 title: Education
-image: ./education.jpg
+image: ../../images/categories/education.jpg
 order: 6
 ---

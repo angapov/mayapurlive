@@ -29,6 +29,42 @@ export default {
     en: 'shop',
     ru: 'магазин'
   },
+  home_title: {
+    en: 'Home',
+    ru: 'Главная'
+  },
+  map_title: {
+    en: 'Map',
+    ru: 'Карта'
+  },
+  today_title: {
+    en: 'Today',
+    ru: 'Сегодня'
+  },
+  news_title: {
+    en: 'News',
+    ru: 'Новости'
+  },
+  forum_title: {
+    en: 'Forum',
+    ru: 'Форум'
+  },
+  shop_title: {
+    en: 'Shop',
+    ru: 'Магазин'
+  },
+  stream_title: {
+    en: 'Stream',
+    ru: 'Трансляция'
+  },
+  support_project_title: {
+    en: 'Support Project',
+    ru: 'Поддержать проект'
+  },
+  tags: {
+    en: 'Tags',
+    ru: 'Теги'
+  },
   home_quote: {
     en: 'My idea is to attract people of the whole world to Mayapur.',
     ru: 'Моя идея - привлечь людей всего мира в Маяпур.'

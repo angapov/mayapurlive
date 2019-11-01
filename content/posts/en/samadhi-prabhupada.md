@@ -4,15 +4,15 @@ templateKey: post
 locale: en
 pageKey: page_blogpost
 title: Srila Prabhupada Samadhi
-image: ./samadhi-prabhupada.jpg
+image: ../../images/posts/samadhi-prabhupada.jpg
 date: 2018-12-07T15:04:10.000Z
 description: Hello World Blog Post EN
 location:
   - 23.42361111
   - 88.38805556
 tags:
-  - tag1
-  - tag2
+  - prabhupada
+  - samadhi
 ---
 
 The garland which adorned His Divine Grace while placing him in Samadhi has been brought and laid down in His Pushpa Samadhi Mandir at Mayapur. A larger than life size brass murti of Srila Prabhupada has been installed and is being worshipped here.
