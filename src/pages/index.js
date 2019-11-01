@@ -6,8 +6,10 @@ import Home from '../components/home/Home'
 import PageSEO from '../components/seo'
 
 import intl from '../intl'
+import { useIntlRedirect } from '../lib'
 
 const IndexPage = ({ pageContext: { locale = intl.defaultLocale }, data: { allMarkdownRemark } }) => {
+  useIntlRedirect(locale, intl.locales, intl.defaultLocale)
   const categories = allMarkdownRemark.edges.map(({ node }) => ({ ...node.frontmatter, path: node.fields.slug }))
   return (
     <Layout>

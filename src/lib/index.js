@@ -4,6 +4,17 @@ import renderAst from './renderAst'
 
 import intl from '../intl'
 
+import browserLang from 'browser-lang'
+
+const useIntlRedirect = (currentLocale, languages, fallback) => {
+  const _lang = browserLang({ languages, fallback })
+  useEffect(() => {
+    if (window.location.pathname === '/' && currentLocale !== _lang) {
+      window.location.replace(`/${_lang}`)
+    }
+  }, [])
+}
+
 const useLocation = () => {
   const initialState = {
     location: globalHistory.location,
@@ -30,4 +41,4 @@ const useLocale = () => {
   return locale
 }
 
-export { renderAst, useLocale, useLocation }
+export { renderAst, useLocale, useLocation, useIntlRedirect }
