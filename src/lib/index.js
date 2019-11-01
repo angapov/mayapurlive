@@ -7,8 +7,8 @@ import intl from '../intl'
 import browserLang from 'browser-lang'
 
 const useIntlRedirect = (currentLocale, languages, fallback) => {
-  const _lang = browserLang({ languages, fallback })
   useEffect(() => {
+    const _lang = browserLang({ languages, fallback })
     if (window.location.pathname === '/' && currentLocale !== _lang) {
       window.location.replace(`/${_lang}`)
     }
