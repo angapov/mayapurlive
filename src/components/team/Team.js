@@ -1,9 +1,12 @@
 import React from 'react'
 import { Box, Text, Grid, Button } from 'grommet'
-import { Facebook, Favorite, Send, Mail } from 'grommet-icons'
+import { Facebook, Send, Mail } from 'grommet-icons'
 import Link from '../Link'
 
+import { useLocale } from '../../lib'
+
 import sharanaprada from './sharanaprada.jpg'
+import tim from './tim.jpg'
 import vasiliy from './vasiliy.jpg'
 
 const SocialAccounts = ({ facebook, telegram, email }) => {
@@ -27,17 +30,29 @@ const TeamMember = ({ name, description, facebook, telegram, email, avatar }) =>
 }
 
 export default ({ team }) => {
-  const members = [
-    { name: 'Sharanaprada das', description: 'Project Management', avatar: sharanaprada },
-    { name: 'Bhakta Timofey', description: 'Site development', email: 'tim@mayapur.live', facebook: 'timpchelintsev' },
-    { name: 'Prema Manjari d.d.', description: 'Content creation' },
-    { name: 'Bhakta Vasiliy', description: 'News Management', avatar: vasiliy },
-    { name: 'You?', description: 'Join Team;)' }
-  ]
+  const locale = useLocale()
+  const members = {
+    en: [
+      { name: 'Sharanaprada das', description: 'Project Management', avatar: sharanaprada },
+      { name: 'Bhakta Timofey', description: 'Site development', avatar: tim, email: 'tim@mayapur.live', facebook: 'timpchelintsev' },
+      { name: 'Prema Manjari d.d.', description: 'Content creation' },
+      { name: 'Bhakta Vasiliy', description: 'News Management', avatar: vasiliy },
+      { name: 'Radha d.d.', description: 'Translations' },
+      { name: 'You?', description: 'Join Team;)' }
+    ],
+    ru: [
+      { name: 'Шаранапрада дас', description: 'Управление проектом', avatar: sharanaprada },
+      { name: 'Бхакта Тимофей', description: 'Разработка сайта', avatar: tim, email: 'tim@mayapur.live', facebook: 'timpchelintsev' },
+      { name: 'Према Манджари д.д.', description: 'Создание контента' },
+      { name: 'Бхакта Василий', description: 'Новости', avatar: vasiliy },
+      { name: 'Радха д.д.', description: 'Перевод' },
+      { name: 'Вы?', description: 'Присоединиться;)' }
+    ]
+  }
   return (
     <Box fill pad='small' align='center'>
       <Grid fill rows='1fr' columns='small'>
-        {members.map(member => (
+        {members[locale].map(member => (
           <TeamMember key={member.name} {...member} />
         ))}
       </Grid>

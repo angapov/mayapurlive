@@ -37,6 +37,10 @@ export default {
     en: 'Map',
     ru: 'Карта'
   },
+  map_select_category: {
+    en: 'Select category...',
+    ru: 'Выберите категорию...'
+  },
   today_title: {
     en: 'Today',
     ru: 'Сегодня'

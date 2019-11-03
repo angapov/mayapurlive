@@ -6,17 +6,47 @@ import Image from '../Image'
 import InDevelopment from '../InDevelopment'
 import Link from '../Link'
 import intl from '../../intl'
-import { useLocale } from '../../lib'
+import { useLocale, useLocation } from '../../lib'
 
-const Search = ({ onSubmit, lang = 'en' }) => {
+const SearchSuggestion = ({ suggestion }) => {
+  const { title } = suggestion
+  return (
+    <Box background='background' direction='row' align='center' gap='small' pad='small' border={{ side: 'bottom' }}>
+      <Text color='control' weight='bold'>{title}</Text>
+    </Box>
+  )
+}
+
+const Search = ({ lang = intl.defaultLocale }) => {
+  const { navigate } = useLocation()
+  const [suggestions, setSuggestions] = React.useState([])
   const size = React.useContext(ResponsiveContext)
   const isSmall = size === 'small'
+  const lunrIndex = typeof window !== 'undefined' && window.__LUNR__ ? window.__LUNR__[lang] : null
+  const renderSuggestions = () => suggestions.map(suggestion => ({ label: <SearchSuggestion suggestion={suggestion} />, value: suggestion }))
+  const onSubmit = () => suggestions.length && onSelect(suggestions[0])
+  const onSearch = query => {
+    if (query === '') {
+      setSuggestions([])
+    } else if (lunrIndex) {
+      const _results = lunrIndex.index.search(query)
+      const results = _results.map(res => lunrIndex.store[res.ref])
+      setSuggestions(results)
+    }
+  }
+  const onSelect = value => navigate(value.slug)
   return (
     <Box align='center' justify='center' fill='horizontal' direction='row' gap='xsmall' background={!isSmall ? { color: 'black', opacity: 'medium' } : 'background'}>
       <Form onSubmit={onSubmit} style={{ width: '100%' }}>
         <Box direction='row' fill gap='small' background={{ dark: true }} pad={!isSmall && 'xsmall'}>
           <FormField name='search' style={{ width: '100%' }}>
-            <TextInput data-testid='search.input' placeholder={intl.searchPlaceholder[lang]} onChange={event => onSubmit({ value: { search: event.target.value } })} />
+            <TextInput
+              data-testid='search.input'
+              placeholder={intl.searchPlaceholder[lang]}
+              onChange={event => onSearch(event.target.value)}
+              suggestions={renderSuggestions()}
+              onSelect={({ suggestion }) => onSelect(suggestion.value)}
+            />
           </FormField>
           <Button size='small' type='submit' icon={<SearchIcon color='control' />} />
         </Box>
@@ -121,11 +151,11 @@ const Top = () => {
           <Quote lang={locale} prabhupadImage={data.prabhupadImage} />
           <Box fill='horizontal' align='center'>
             <Services />
-            {!isSmall && <Search lang={locale} onSubmit={value => console.log(value)} />}
+            {!isSmall && <Search lang={locale} />}
           </Box>
         </Box>
       </Stack>
-      {isSmall && <Search lang={locale} onSubmit={value => console.log(value)} />}
+      {isSmall && <Search lang={locale} />}
     </Box>
   )
 }
