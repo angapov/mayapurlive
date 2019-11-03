@@ -7,9 +7,10 @@ import PageSEO from '../components/seo'
 const CategoryPage = ({ pageContext: { locale, slug }, data: { markdownRemark, allMarkdownRemark } }) => {
   const posts = allMarkdownRemark.edges.map(({ node }) => ({ ...node.frontmatter, path: node.fields.slug }))
   const category = { htmlAst: markdownRemark.htmlAst, ...markdownRemark.frontmatter, posts }
+  const ogImagePath = category.image && category.image.childImageSharp.fixed.src
   return (
-    <Layout locale={locale}>
-      <PageSEO title={category.title} lang={locale} />
+    <Layout>
+      <PageSEO title={category.title} lang={locale} image={ogImagePath} />
       <Category category={category} />
     </Layout>
   )
@@ -28,6 +29,9 @@ export const pageQuery = graphql`
           childImageSharp {
             fluid(maxWidth: 800) {
               ...GatsbyImageSharpFluid
+            }
+            fixed {
+              src
             }
           }
         }

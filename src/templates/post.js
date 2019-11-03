@@ -6,9 +6,10 @@ import PageSEO from '../components/seo'
 
 const PostPage = ({ pageContext: { locale }, data: { markdownRemark } }) => {
   const post = { htmlAst: markdownRemark.htmlAst, ...markdownRemark.frontmatter }
+  const ogImagePath = post.image && post.image.childImageSharp.fixed.src
   return (
-    <Layout locale={locale}>
-      <PageSEO title={post.title} lang={locale} />
+    <Layout>
+      <PageSEO title={post.title} lang={locale} image={ogImagePath} />
       <Post post={post} />
     </Layout>
   )
@@ -28,6 +29,9 @@ export const pageQuery = graphql`
           childImageSharp {
             fluid(maxWidth: 800) {
               ...GatsbyImageSharpFluid
+            },
+            fixed {
+              src
             }
           }
         }
