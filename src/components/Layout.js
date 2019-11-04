@@ -20,6 +20,9 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: none;
     box-shadow: none;
   }
+  .pigeon-map-overlay {
+    z-index: 1000;
+  }
 `
 
 const customTheme = deepMerge(dark, {

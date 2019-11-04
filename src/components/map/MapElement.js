@@ -37,10 +37,9 @@ const Marker = ({ left, top, latLngToPixel, onClick, payload, icon, active = fal
   </Box>
 )
 
-// const MyMap = ({ results = [], active = null, handleClick, handleBoundsChanged, center, zoom, handleReset, overlayOffset = [-20, 300], geolocation }) => (
 const MyMap = ({ results = [], active = null, handleClick, handleBoundsChanged, center, zoom, handleReset, overlayOffset = [150, 200], geolocation }) => {
   return (
-    <Map center={center} zoom={zoom} onBoundsChanged={handleBoundsChanged} onClick={() => console.log('click')}>
+    <Map center={center} zoom={zoom} onBoundsChanged={handleBoundsChanged}>
       <Box style={{ height: '100%', width: '100%', position: 'absolute', left: 0, top: 0 }} onClick={() => handleReset()} />
       {results.filter(result => result.location).map(result => (
         <Marker
@@ -52,7 +51,8 @@ const MyMap = ({ results = [], active = null, handleClick, handleBoundsChanged, 
         />
       ))}
       {active &&
-        <Overlay key={active.id} anchor={[active.location[0], active.location[1]]} offset={active && active.id === 'geolocation' ? [-25, 25] : overlayOffset}>
+        // FIXME: css for .pigeon-map-overlay is in global styles in Layout component.
+        <Overlay className='pigeon-map-overlay' key={active.id} anchor={[active.location[0], active.location[1]]} offset={active && active.id === 'geolocation' ? [-25, 25] : overlayOffset}>
           {active.id !== 'geolocation' ? <SearchResult post={active} background='background' /> : <Box round='xsmall' pad='xsmall' background='dark-1'>{active.text}</Box>}
         </Overlay>}
       {geolocation.coords &&
