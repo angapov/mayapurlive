@@ -2,32 +2,32 @@ export default {
   defaultLocale: 'en',
   locales: ['en', 'ru'],
   nav_map: {
-    en: 'map',
-    ru: 'карта'
+    en: 'Map',
+    ru: 'Карта'
   },
   nav_stream: {
-    en: 'stream',
-    ru: 'трансляция'
+    en: 'TV',
+    ru: 'ТВ'
   },
   nav_today: {
-    en: 'today',
-    ru: 'сегодня'
+    en: 'Today',
+    ru: 'Сегодня'
   },
   nav_news: {
-    en: 'news',
-    ru: 'новости'
+    en: 'News',
+    ru: 'Новости'
   },
   nav_calendar: {
-    en: 'calendar',
-    ru: 'календарь'
+    en: 'Calendar',
+    ru: 'Календарь'
   },
   nav_forum: {
-    en: 'forum',
-    ru: 'форум'
+    en: 'Forum',
+    ru: 'Форум'
   },
   nav_shop: {
-    en: 'shop',
-    ru: 'магазин'
+    en: 'Shop',
+    ru: 'Магазин'
   },
   home_title: {
     en: 'Home',
