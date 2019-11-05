@@ -8,7 +8,7 @@ import intl from '../../intl'
 const Tag = ({ tag }) => {
   return (
     <Link to={tag.path}>
-      <Box fill align='center' justify='center' border={{ color: 'control' }}>
+      <Box fill align='center' justify='center'>
         {tag.value} ({tag.postsCount})
       </Box>
     </Link>

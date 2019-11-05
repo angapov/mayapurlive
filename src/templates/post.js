@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 import PageSEO from '../components/seo'
 
 const PostPage = ({ pageContext: { locale }, data: { markdownRemark } }) => {
-  const post = { htmlAst: markdownRemark.htmlAst, ...markdownRemark.frontmatter }
+  const post = { htmlAst: markdownRemark.htmlAst, ...markdownRemark.frontmatter, category: { path: markdownRemark.frontmatter.category.frontmatter.category_id } }
   const ogImagePath = post.image && post.image.childImageSharp.fixed.src
   return (
     <Layout>
@@ -25,6 +25,8 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+        tags
+        category { frontmatter { category_id } }
         image {
           childImageSharp {
             fluid(maxWidth: 800) {

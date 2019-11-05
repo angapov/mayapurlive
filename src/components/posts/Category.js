@@ -1,19 +1,29 @@
 import React from 'react'
-import { Box, Heading, Stack } from 'grommet'
+import { Box, Heading } from 'grommet'
+import { Previous } from 'grommet-icons'
 import Posts from './Posts'
-// import Image from '../Image'
+import Tags from './Tags'
+import Link from '../Link'
 
 export default ({ category }) => {
+  const tags = new Map()
+  category.posts.forEach(post => {
+    if (post.tags) {
+      post.tags.forEach(tag => {
+        tags.set(tag, { value: tag, path: `/tags/${tag}` })
+      })
+    }
+  })
   return (
     <Box fill>
       <Box fill='horizontal' justify='center' align='center'>
-        <Stack fill>
-          {/* NOTE: do we really need image here? */}
-          {/* <Box fill='horizontal' width='medium' height='small'><Image gatsbyImage={category.image.childImageSharp} /></Box> */}
-          <Box align='center' justify='end' fill>
-            <Box align='center' fill='horizontal' pad='small' background={{ color: 'black', opacity: 'medium' }}><Heading color='light-1' level={2}>{category.title}</Heading></Box>
+        <Box align='center' justify='center' fill='horizontal' pad='small' background={{ color: 'black', opacity: 'medium' }}>
+          <Box fill='horizontal' direction='row' align='center' justify='center' gap='small'>
+            <Link to='/'><Box fill align='center' justify='center'><Previous color='control' /></Box></Link>
+            <Heading color='light-1' level={2}>{category.title}</Heading>
           </Box>
-        </Stack>
+          <Tags tags={[...tags.values()]} />
+        </Box>
       </Box>
       <Box pad='small'>
         <Posts posts={category.posts} />
