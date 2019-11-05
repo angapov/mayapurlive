@@ -1,7 +1,7 @@
 ---
 category: /ru/food/
 templateKey: post
-locale: en
+locale: ru
 title: Говиндас
 image: ../../images/posts/govindas.jpg
 date: 2018-12-07T15:04:10.000Z
