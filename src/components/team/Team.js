@@ -8,6 +8,8 @@ import { useLocale } from '../../lib'
 import sharanaprada from './sharanaprada.jpg'
 import tim from './tim.jpg'
 import vasiliy from './vasiliy.jpg'
+import prema from './prema.jpg'
+import radha from './radha.jpg'
 
 const SocialAccounts = ({ facebook, telegram, email }) => {
   return (
@@ -35,17 +37,17 @@ export default ({ team }) => {
     en: [
       { name: 'Sharanaprada das', description: 'Project Management', avatar: sharanaprada },
       { name: 'Bhakta Timofey', description: 'Site development', avatar: tim, email: 'tim@mayapur.live', facebook: 'timpchelintsev' },
-      { name: 'Prema Manjari d.d.', description: 'Content creation' },
+      { name: 'Prema Manjari d.d.', description: 'Content creation', avatar: prema },
       { name: 'Bhakta Vasiliy', description: 'News Management', avatar: vasiliy },
-      { name: 'Radha d.d.', description: 'Translations' },
+      { name: 'Radha d.d.', description: 'Translations', avatar: radha },
       { name: 'You?', description: 'Join Team;)' }
     ],
     ru: [
       { name: 'Шаранапрада дас', description: 'Управление проектом', avatar: sharanaprada },
       { name: 'Бхакта Тимофей', description: 'Разработка сайта', avatar: tim, email: 'tim@mayapur.live', facebook: 'timpchelintsev' },
-      { name: 'Према Манджари д.д.', description: 'Создание контента' },
+      { name: 'Према Манджари д.д.', description: 'Создание контента', avatar: prema },
       { name: 'Бхакта Василий', description: 'Новости', avatar: vasiliy },
-      { name: 'Радха д.д.', description: 'Перевод' },
+      { name: 'Радха д.д.', description: 'Перевод', avatar: radha },
       { name: 'Вы?', description: 'Присоединиться;)' }
     ]
   }
