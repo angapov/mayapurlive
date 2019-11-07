@@ -2,8 +2,8 @@ export default {
   defaultLocale: 'en',
   locales: ['en', 'ru'],
   messenger_loggedInGreeting: {
-    en: 'Haribol, {{user_first_name}}! How can we serve you?',
-    ru: 'Харибол, {{user_first_name}}! Как мы можем Вам послужить?'
+    en: 'Haribol! How can we serve you?',
+    ru: 'Харибол! Как мы можем Вам послужить?'
   },
   messenger_loggedOutGreeting: {
     en: 'Haribol! How can we serve you?',
