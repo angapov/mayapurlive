@@ -12,7 +12,7 @@ const IndexPage = ({ pageContext: { locale = intl.defaultLocale }, data: { allMa
   useIntlRedirect(locale, intl.locales, intl.defaultLocale)
   const categories = allMarkdownRemark.edges.map(({ node }) => ({ ...node.frontmatter, path: node.fields.slug }))
   return (
-    <Layout>
+    <Layout showChat>
       <PageSEO title={intl.home_title[locale]} lang={locale} />
       <Home categories={categories} />
     </Layout>

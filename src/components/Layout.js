@@ -8,6 +8,9 @@ import Header from './Header'
 import Chat from './Chat'
 
 import { createGlobalStyle } from 'styled-components'
+import { FacebookProvider } from 'react-facebook'
+
+import { useLocale } from '../lib'
 
 const GlobalStyle = createGlobalStyle`
   img {
@@ -38,16 +41,21 @@ const customTheme = deepMerge(dark, {
   }
 })
 
-export default ({ children, showFooter = true, showChat = false }) => (
-  <Grommet full theme={customTheme}>
-    <GlobalStyle />
-    <Box flex style={{ minHeight: '100vh' }}>
-      <Header />
-      <Box as='main' flex>
-        {children}
-      </Box>
-      {showFooter && <Footer />}
-      {showChat && <Chat />}
-    </Box>
-  </Grommet>
-)
+export default ({ children, showFooter = true, showChat = false }) => {
+  const locale = useLocale()
+  return (
+    <Grommet full theme={customTheme}>
+      <GlobalStyle />
+      <FacebookProvider chatSupport={showChat} wait={false} appId='610493882762259' language={`${locale}_${locale.toUpperCase()}`}>
+        <Box flex style={{ minHeight: '100vh' }}>
+          <Header />
+          <Box as='main' flex>
+            {children}
+          </Box>
+          {showFooter && <Footer />}
+          {showChat && <Chat />}
+        </Box>
+      </FacebookProvider>
+    </Grommet>
+  )
+}

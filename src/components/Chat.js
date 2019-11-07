@@ -1,11 +1,10 @@
 import React from 'react'
-import { Box, Button } from 'grommet'
-import { Chat } from 'grommet-icons'
+import { CustomChat } from 'react-facebook'
+
+const facebookPageId = '917238891940615'
 
 export default () => {
   return (
-    <Box round align='center' justify='center' background={{ color: 'black', opacity: 'strong' }} style={{ position: 'absolute', right: '20px', bottom: '20px', width: '50px', height: '50px' }}>
-      <Button plain><Chat size='medium' /></Button>
-    </Box>
+    <CustomChat pageId={facebookPageId} themeColor='#000000' minimized />
   )
 }
