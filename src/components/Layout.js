@@ -42,11 +42,12 @@ const customTheme = deepMerge(dark, {
 })
 
 export default ({ children, showFooter = true, showChat = false }) => {
+  const facebookAppId = '610493882762259' // FIXME: remove hardcode
   const locale = useLocale()
   return (
     <Grommet full theme={customTheme}>
       <GlobalStyle />
-      <FacebookProvider chatSupport={showChat} wait={false} appId='610493882762259' language={`${locale}_${locale.toUpperCase()}`}>
+      <FacebookProvider chatSupport={showChat} wait appId={facebookAppId} language={`${locale}_${locale.toUpperCase()}`}>
         <Box flex style={{ minHeight: '100vh' }}>
           <Header />
           <Box as='main' flex>
