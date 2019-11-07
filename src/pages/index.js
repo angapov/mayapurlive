@@ -11,8 +11,9 @@ import { useIntlRedirect } from '../lib'
 const IndexPage = ({ pageContext: { locale = intl.defaultLocale }, data: { allMarkdownRemark } }) => {
   useIntlRedirect(locale, intl.locales, intl.defaultLocale)
   const categories = allMarkdownRemark.edges.map(({ node }) => ({ ...node.frontmatter, path: node.fields.slug }))
+  // NOTE: disabled chat, need to investigate some issues first
   return (
-    <Layout showChat>
+    <Layout showChat={false}>
       <PageSEO title={intl.home_title[locale]} lang={locale} />
       <Home categories={categories} />
     </Layout>
