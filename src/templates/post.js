@@ -26,6 +26,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         tags
+        gallery
         category { frontmatter { category_id } }
         image {
           childImageSharp {
