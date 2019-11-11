@@ -47,16 +47,16 @@ export default ({ children, showFooter = true, showChat = true }) => {
   return (
     <Grommet full theme={customTheme}>
       <GlobalStyle />
-      {/* <FacebookProvider chatSupport={showChat} wait appId={facebookAppId} language={`${locale}_${locale.toUpperCase()}`}> */}
-      <Box flex style={{ minHeight: '100vh' }}>
-        <Header />
-        <Box as='main' flex>
-          {children}
+      <FacebookProvider chatSupport={showChat} wait={false} appId={facebookAppId} language={`${locale}_${locale.toUpperCase()}`}>
+        <Box flex style={{ minHeight: '100vh' }}>
+          <Header />
+          <Box as='main' flex>
+            {children}
+          </Box>
+          {showFooter && <Footer />}
+          {showChat && <Chat />}
         </Box>
-        {showFooter && <Footer />}
-        {showChat && <Chat />}
-      </Box>
-      {/* </FacebookProvider> */}
+      </FacebookProvider>
     </Grommet>
   )
 }

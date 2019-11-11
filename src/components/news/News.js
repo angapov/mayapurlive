@@ -7,18 +7,18 @@ import { FacebookProvider, Page } from 'react-facebook'
 import { useLocale } from '../../lib'
 
 const FacebookPagePlugin = ({ width, height, language = 'en' }) => (
-  <FacebookProvider appId='610493882762259' wait={false} language={`${language}_${language.toUpperCase()}`}>
-    <Page
-      href='https://www.facebook.com/sri.dham.mayapur'
-      tabs='timeline'
-      adaptContainerWidth={false}
-      // adaptContainerWidth
-      smallHeader
-      hideCover
-      width={width}
-      height={height}
-    />
-  </FacebookProvider>
+  // <FacebookProvider appId='610493882762259' wait={false} language={`${language}_${language.toUpperCase()}`}>
+  <Page
+    href='https://www.facebook.com/sri.dham.mayapur'
+    tabs='timeline'
+    adaptContainerWidth={false}
+    // adaptContainerWidth
+    smallHeader
+    hideCover
+    width={width}
+    height={height}
+  />
+  // </FacebookProvider>
 )
 
 const News = () => {
