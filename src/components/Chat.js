@@ -16,6 +16,7 @@ export default () => {
       loggedInGreeting={intl.messenger_loggedInGreeting[locale]}
       loggedOutGreeting={intl.messenger_loggedOutGreeting[locale]}
       themeColor='#000000'
+      greetingDialogDisplay='hide'
     />
   )
 }
