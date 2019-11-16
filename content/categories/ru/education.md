@@ -4,5 +4,5 @@ templateKey: category
 locale: ru
 title: Образование
 image: ../../images/categories/education.jpg
-order: 6
+order: 7
 ---

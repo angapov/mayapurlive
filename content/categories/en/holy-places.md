@@ -4,5 +4,5 @@ templateKey: category
 locale: en
 title: Holy Places
 image: ../../images/categories/holy-places.jpg
-order: 0
+order: 2
 ---

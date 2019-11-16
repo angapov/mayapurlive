@@ -4,5 +4,5 @@ templateKey: category
 locale: ru
 title: Община
 image: ../../images/categories/community.jpg
-order: 1
+order: 5
 ---

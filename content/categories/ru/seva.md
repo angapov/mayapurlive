@@ -4,5 +4,5 @@ templateKey: category
 locale: ru
 title: Служение
 image: ../../images/categories/seva.jpg
-order: 4
+order: 6
 ---

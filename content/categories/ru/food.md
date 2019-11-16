@@ -4,5 +4,5 @@ templateKey: category
 locale: ru
 title: Питание
 image: ../../images/categories/food.jpg
-order: 3
+order: 4
 ---

@@ -1,5 +1,5 @@
 ---
-category: /ru/holy-places/
+category: /ru/iskcon-mayapur/
 templateKey: post
 locale: ru
 pageKey: page_blogpost

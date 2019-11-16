@@ -61,7 +61,7 @@ const Header = () => {
           />
         </Box>
       </Box>
-      {isSmall && <Nav isSmall={isSmall} locale={locale} />}
+      {isSmall && <Box fill='horizontal' background={{ color: 'black', opacity: 'strong' }}><Nav isSmall={isSmall} locale={locale} /></Box>}
     </Box>
   )
 }

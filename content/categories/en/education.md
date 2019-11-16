@@ -4,5 +4,5 @@ templateKey: category
 locale: en
 title: Education
 image: ../../images/categories/education.jpg
-order: 6
+order: 7
 ---

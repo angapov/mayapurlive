@@ -4,5 +4,5 @@ templateKey: category
 locale: en
 title: Knowledge Base
 image: ../../images/categories/knowledge-base.jpg
-order: 7
+order: 8
 ---

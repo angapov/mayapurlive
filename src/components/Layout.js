@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Grommet } from 'grommet'
+import { Box, Grommet, ResponsiveContext } from 'grommet'
 import { dark } from 'grommet/themes'
 import { deepMerge } from 'grommet/utils'
 
@@ -44,13 +44,15 @@ const customTheme = deepMerge(dark, {
 export default ({ children, showFooter = true, showChat = true }) => {
   const facebookAppId = '610493882762259' // FIXME: remove hardcode
   const locale = useLocale()
+  const screen = React.useContext(ResponsiveContext)
+  const isSmall = screen === 'small'
   return (
     <Grommet full theme={customTheme}>
       <GlobalStyle />
       <FacebookProvider chatSupport={showChat} wait={false} appId={facebookAppId} language={`${locale}_${locale.toUpperCase()}`}>
         <Box flex style={{ minHeight: '100vh' }}>
-          <Header />
-          <Box as='main' flex>
+          <Box style={{ zIndex: 1000, position: 'fixed', top: 0 }} fill='horizontal'><Header /></Box>
+          <Box as='main' flex margin={{ top: isSmall ? '50px' : '72px' }}>
             {children}
           </Box>
           {showFooter && <Footer />}

@@ -4,5 +4,5 @@ templateKey: category
 locale: en
 title: Accommodation
 image: ../../images/categories/accommodation.jpg
-order: 2
+order: 3
 ---
