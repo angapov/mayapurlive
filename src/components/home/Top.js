@@ -21,6 +21,7 @@ const Search = ({ lang = intl.defaultLocale }) => {
   const { navigate } = useLocation()
   const [suggestions, setSuggestions] = React.useState([])
   const size = React.useContext(ResponsiveContext)
+  console.log('screen from top', size)
   const isSmall = size === 'small'
   const lunrIndex = typeof window !== 'undefined' && window.__LUNR__ ? window.__LUNR__[lang] : null
   const renderSuggestions = () => suggestions.map(suggestion => ({ label: <SearchSuggestion suggestion={suggestion} />, value: suggestion }))

@@ -42,7 +42,7 @@ const Header = () => {
   const isSmall = screen === 'small'
   return (
     <Box fill='horizontal' direction={isSmall ? 'column' : 'row'}>
-      <Box background='black' fill='horizontal' direction='row' gap='xsmall' align='center' justify='between'>
+      <Box background={isSmall ? 'black' : { color: 'black', opacity: 'strong' }} fill='horizontal' direction='row' gap='xsmall' align='center' justify='between'>
         <Box justify='start' align='center' direction='row' pad='xsmall'>
           <Link to='/'><Text>mayapur.live</Text></Link>🌴
         </Box>

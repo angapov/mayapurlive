@@ -41,7 +41,7 @@
     "gatsby-source-filesystem": "2.1.35",
     "gatsby-transformer-remark": "^2.6.30",
     "gatsby-transformer-sharp": "2.3.2",
-    "grommet": "2.7.10",
+    "grommet": "2.8.0",
     "grommet-icons": "^4.3.0",
     "lodash": "^4.17.11",
     "pigeon-maps": "^0.14.0",
