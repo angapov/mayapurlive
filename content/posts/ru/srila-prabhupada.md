@@ -24,7 +24,7 @@ tags:
 
 С желанием возродить сознание Кришны у себя на родине Шрила Прабхупада приезжал несколько раз в Индию. Здесь ему удалось оживить вайшнавские традиции.  Он открыл десятки храмов, включая крупные центры в таких духовных городах как Вриндаван и Маяпур.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Q6iRmKUGWok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmayapur.live%2Fvideos%2F844902382591348%2F&show_text=0&width=560&mute=0" width="560" height="420" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 
 Однако наиболее важным вкладом Шрилы Прабхупады являются его книги – более 60 томов священных текстов и комментариев к ним. Эти книги пользуются большим уважением многих ученых мира за их авторитетность, глубину, ясность и верность традиции. Некоторые из его работ используются в качестве учебников в университетах. Книги Шрилы Прабхупады переведены на 76 языков. В их числе: «Бхагавад-Гита как она есть», многотомные «Шримад-Бхагаватам» и «Шри Чайтанья-чаритамрита».
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Heading } from 'grommet'
-import { Previous } from 'grommet-icons'
+import { Previous, Map as MapIcon } from 'grommet-icons'
 import Posts from './Posts'
 import Tags from './Tags'
 import Link from '../Link'
@@ -21,6 +21,7 @@ export default ({ category }) => {
           <Box fill='horizontal' direction='row' align='center' justify='center' gap='small'>
             <Link to='/'><Box fill align='center' justify='center'><Previous color='control' /></Box></Link>
             <Heading color='light-1' level={2}>{category.title}</Heading>
+            <Link to={`/map?category=${category.title.replace(' ', '+')}`}><Box fill align='center' justify='center'><MapIcon color='control' /></Box></Link>
           </Box>
           <Tags tags={[...tags.values()]} />
         </Box>

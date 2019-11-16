@@ -18,7 +18,7 @@ In the very heart of Mayapur - the world center of Vedic spiritual culture - an 
 
 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmayapur.live%2Fvideos%2F2443954435866773%2F&show_text=0&width=560&mute=0&t=8" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 
-The Great Saint of our time [A.C. Bhaktivedanta Swami Prabhupada](/en/srila-prabhupada), bequeathing the construction of this temple to his best students, gave the order to build it on voluntary contributions collected around the world, in every point of our long-suffering planet.
+The Great Saint of our time [A.C. Bhaktivedanta Swami Prabhupada](/en/srila-prabhupada), bequeathing the construction of this temple to his disciples, gave the order to build it on voluntary contributions collected around the world, in every point of our long-suffering planet.
 
 Despite the fantastic scope of his imagination, Srila Prabhupada had a clear idea of ​​what the new temple should be like. As evidence, we have left his numerous statements, instructions and explanations. He wanted the Vedic Planetarium to have no equal, revealing to people the Vedic concept of life. The temple should become the hallmark of the ancient Vedic culture, reviving today.
 Combining modern technology, ancient science, eternal wisdom and living culture, the temple promises to become a popular center of spiritual life on Earth.
