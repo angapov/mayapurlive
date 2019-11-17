@@ -5,7 +5,6 @@ import { deepMerge } from 'grommet/utils'
 
 import Footer from './Footer'
 import Header from './Header'
-import ContentArea from './ContentArea'
 import Chat from './Chat'
 
 import { createGlobalStyle } from 'styled-components'
@@ -50,10 +49,10 @@ export default ({ children, showFooter = true, showChat = true }) => {
       <GlobalStyle />
       <FacebookProvider chatSupport={showChat} wait={false} appId={facebookAppId} language={`${locale}_${locale.toUpperCase()}`}>
         <Box flex style={{ minHeight: '100vh' }}>
-          <Box style={{ zIndex: 1000, position: 'fixed', top: 0 }} fill='horizontal'><Header /></Box>
-          <ContentArea>
+          <Box style={{ zIndex: 1, position: 'sticky', top: 0 }} fill='horizontal'><Header /></Box>
+          <Box as='main' flex>
             {children}
-          </ContentArea>
+          </Box>
           {showFooter && <Footer />}
           {showChat && <Chat />}
         </Box>

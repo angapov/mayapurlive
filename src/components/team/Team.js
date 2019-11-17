@@ -39,7 +39,7 @@ export default ({ team }) => {
       { name: 'Bhakta Timofey', description: 'Site development', avatar: tim, email: 'tim@mayapur.live', facebook: 'timpchelintsev' },
       { name: 'Prema Manjari d.d.', description: 'Content creation', avatar: prema },
       { name: 'Bhakta Vasiliy', description: 'News Management', avatar: vasiliy },
-      { name: 'Radha d.d.', description: 'Translations', avatar: radha },
+      { name: 'Bhaktin Radha', description: 'News Management', avatar: radha },
       { name: 'You?', description: 'Join Team;)' }
     ],
     ru: [
@@ -47,7 +47,7 @@ export default ({ team }) => {
       { name: 'Бхакта Тимофей', description: 'Разработка сайта', avatar: tim, email: 'tim@mayapur.live', facebook: 'timpchelintsev' },
       { name: 'Према Манджари д.д.', description: 'Создание контента', avatar: prema },
       { name: 'Бхакта Василий', description: 'Новости', avatar: vasiliy },
-      { name: 'Радха д.д.', description: 'Перевод', avatar: radha },
+      { name: 'Бхактин Радха', description: 'Новости', avatar: radha },
       { name: 'Вы?', description: 'Присоединиться;)' }
     ]
   }
