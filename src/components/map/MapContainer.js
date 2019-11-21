@@ -47,8 +47,8 @@ const geolocationOptions = {
 class MapContainer extends React.Component {
   state = {
     active: null,
-    center: [23.43, 88.39],
-    zoom: 15
+    center: [23.42477, 88.38907], // NOTE: TOVP
+    zoom: 16
   }
 
   handleClick = marker => {

@@ -14,7 +14,7 @@ tags:
   - cafe
 ---
 
-Here you can relish Mahaprasadam from Sri Sri Radha Madhava in every flavour: salty dishes, sweet desserts, snacks. From 12 a.m. to 2 p.m. here you can take a “set lunch” which Bengalis call THALI (tuh-lee).
+Here you can relish [Mahaprasad](/en/glossary/#prasad) from Sri Sri Radha Madhava in every flavour: salty dishes, sweet desserts, snacks. From 12 a.m. to 2 p.m. here you can take a “set lunch” which Bengalis call THALI (tuh-lee).
 
 Sweets and snacks in Mahaprasadam shop are packed so that you can take them with you while traveling.
 

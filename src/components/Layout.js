@@ -26,6 +26,9 @@ const GlobalStyle = createGlobalStyle`
   .pigeon-map-overlay {
     z-index: 1000;
   }
+  .header-autolink {
+    fill: #FFCA58;
+  }
 `
 
 const customTheme = deepMerge(dark, {

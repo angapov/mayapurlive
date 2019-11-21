@@ -4,11 +4,11 @@ import { Heading, Paragraph, Anchor, Image } from 'grommet'
 import { Info } from 'grommet-icons'
 
 const headers = [1, 2, 3, 4].reduce((obj, level) => {
-  obj[`h${level}`] = ({ children }) => <Heading level={level}>{children}</Heading>
+  obj[`h${level}`] = ({ children, ...rest }) => <Heading {...rest} level={level}>{children}</Heading>
   return obj
 }, {})
 
-const p = ({ children }) => <Paragraph fill>{children}</Paragraph>
+const p = ({ children, ...rest }) => <Paragraph {...rest} fill>{children}</Paragraph>
 
 const tbd = ({ locale, url }) => {
   const label = locale === 'en'

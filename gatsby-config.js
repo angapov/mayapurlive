@@ -26,6 +26,13 @@ module.exports = {
         plugins: [
           'gatsby-remark-responsive-iframe',
           {
+            resolve: 'gatsby-remark-autolink-headers',
+            options: {
+              offsetY: 50,
+              className: 'header-autolink'
+            }
+          },
+          {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 800
