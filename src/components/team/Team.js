@@ -11,6 +11,8 @@ import vasiliy from './vasiliy.jpg'
 import prema from './prema.jpg'
 import radha from './radha.jpg'
 import taisiya from './taisiya.jpg'
+import alena from './alena.jpg'
+import vraja from './vraja-palini.jpg'
 
 const SocialAccounts = ({ facebook, telegram, email }) => {
   return (
@@ -40,6 +42,8 @@ export default ({ team }) => {
       { name: 'Bhakta Timofey', description: 'Site development', avatar: tim, email: 'tim@mayapur.live', facebook: 'timpchelintsev' },
       { name: 'Prema Manjari d.d.', description: 'Content creation', avatar: prema },
       { name: 'Bhaktin Taisiya', description: 'Content creation', avatar: taisiya },
+      { name: 'Bhaktin Alena', description: 'Content creation', avatar: alena },
+      { name: 'Vraja Palini d.d.', description: 'Content creation', avatar: vraja },
       { name: 'Bhakta Vasiliy', description: 'News Management', avatar: vasiliy },
       { name: 'Bhaktin Radha', description: 'News Management', avatar: radha },
       { name: 'You?', description: 'Join Team;)' }
@@ -49,6 +53,8 @@ export default ({ team }) => {
       { name: 'Бхакта Тимофей', description: 'Разработка сайта', avatar: tim, email: 'tim@mayapur.live', facebook: 'timpchelintsev' },
       { name: 'Према Манджари д.д.', description: 'Создание контента', avatar: prema },
       { name: 'Бхактин Таисия', description: 'Создание контента', avatar: taisiya },
+      { name: 'Бхактин Алена', description: 'Создание контента', avatar: alena },
+      { name: 'Враджа Палини д.д.', description: 'Создание контента', avatar: vraja },
       { name: 'Бхакта Василий', description: 'Новости', avatar: vasiliy },
       { name: 'Бхактин Радха', description: 'Новости', avatar: radha },
       { name: 'Вы?', description: 'Присоединиться;)' }
