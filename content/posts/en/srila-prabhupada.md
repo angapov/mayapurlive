@@ -4,7 +4,7 @@ templateKey: post
 locale: en
 title: Srila Prabhupada
 image: ../../images/posts/srila-prabhupada.jpg
-date: 2018-12-07T15:04:10.000Z
+date: 2018-12-08T15:04:10.000Z
 description: Hello World Blog Post EN
 gallery:
   - https://scontent.fccu3-1.fna.fbcdn.net/v/t1.0-9/11949336_10154761213251959_5504385986417777936_n.jpg?_nc_cat=107&_nc_oc=AQlQ2Rffqao4fkPZxCSOWhgMUHpEVfW1nGr29FoZ53g7dGB9SXUevnou8m9RyIEY-SQ&_nc_ht=scontent.fccu3-1.fna&oh=072af444e0a7b2be63090df6993120c1&oe=5E175C63
@@ -12,7 +12,7 @@ tags:
   - prabhupada
 ---
 
-When His Divine Grace A.C. Bhaktivedanta Swami (who later became known as Srila Prabhupada) entered the port of New York City on September 17, 1965, few Americans took notice — but he was not merely another immigrant.  He was on a mission to introduce an ancient religion, which originated in India, into mainstream America.  Before Srila Prabhupada passed away on November 14, 1977, at the age of 81, his mission proved successful.  He had founded the International Society for Krishna Consciousness (ISKCON) and saw it grow into a worldwide confederation of more than 100 temples, ashrams and cultural centers.
+When His Divine Grace A.C. Bhaktivedanta Swami (who later became known as Srila Prabhupada) entered the port of New York City on September 17, 1965, few Americans took notice — but he was not merely another immigrant.  He was on a mission to introduce an ancient religion, which originated in India, into mainstream America.  Before Srila Prabhupada passed away on November 14, 1977, at the age of 81, his mission proved successful.  He had founded the [International Society for Krishna Consciousness (ISKCON)](/en/iskcon) and saw it grow into a worldwide confederation of more than 100 temples, ashrams and cultural centers.
 
 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fharekrishnathefilm%2Fvideos%2F1316060851848787%2F&show_text=0&width=560&mute=0" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 
