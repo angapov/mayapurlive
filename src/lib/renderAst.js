@@ -15,9 +15,7 @@ const tbd = ({ locale, url }) => {
     ? 'Post is being written. If you have some good videos, photos, ideas or feedback, you are welcome to help!'
     : 'Пост в процессе написания. Если у Вас есть хорошие видео, фотографии, идеи или обратная связь, Вы можете помочь!'
   return (
-    <p>
-      <Anchor icon={<Info />} target='blank' href={url} label={label} />
-    </p>
+    <Anchor icon={<Info />} target='blank' href={url} label={label} />
   )
 }
 
