@@ -11,7 +11,7 @@ tags:
  - books
 ---
 
-No sacred treatise, has a setting as intriguing as the Bhagavad Gita. The dialogue between the princely warrior Arjuna and Lord Krishna, the Supreme Godhead before the onset of the Mahabharata War is universally renowned as the jewel of India’s spiritual wisdom.
+No sacred treatise, has a setting as intriguing as the Bhagavad Gita. The dialogue between the princely warrior Arjuna and [Lord Krishna](/en/krishna), the Supreme Godhead before the onset of the Mahabharata War is universally renowned as the jewel of India’s spiritual wisdom.
 
 Paralyzed by the fear of killing his kinsmen, friends and teachers in the opposite army, Arjuna decided not to fight putting aside his social duty as Kshatriya (warrior).
 Krishna, who agreed to become the driver of Arjuna’s chariot, eloquently explains him on the battlefield about His duties of  being a warrior. The conversation moves to a series of questions and answers  about  metaphysical concepts such as soul, relationship with God, liberation, Karma Yoga ( the principle of non-attached action), Gyaan Yoga (knowledge) and Bhakti Yoga (devotion).

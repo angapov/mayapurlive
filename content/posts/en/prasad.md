@@ -10,7 +10,7 @@ tags:
  - prasad
 ---
 
-In the Bhagavad-gita, Krishna says that human being should only eat what was first offered to Him, otherwise there will be karmic consequences.
+In the [Bhagavad-gita](/en/bhagavad-gita), [Krishna](/en/krishna) says that human being should only eat what was first offered to Him, otherwise there will be karmic consequences.
 
 > "Offer Me a leaf, flower, fruit, or water, with love and devotion, and I will accept them." (BG 9.26)
 

@@ -15,7 +15,7 @@ The International Society for Krishna Consciousness (ISKCON) is a religious mo
 His Divine Grace A.C. Bhaktivedanta Swami Prabhupada, also known as [Srila Prabhupada](/en/srila-prabhupada), is the Founder-Acharya of ISKCON.
 
 ISKCON belongs to the Gaudiya-Vaishnava sampradaya, a monotheistic tradition within the Vedic and Hindu cultural traditions.
-It is based on the [Bhagavad-Gita](/en/bhagavad-gita), the spiritual teachings spoken by Lord Krishna. According to many writings, this sacred text is over 5,000 years old, and it documents the conversation between Lord Krishna and his close friend and disciple, Arjuna.
+It is based on the [Bhagavad-Gita](/en/bhagavad-gita), the spiritual teachings spoken by [Lord Krishna](/en/krishna). According to many writings, this sacred text is over 5,000 years old, and it documents the conversation between Lord Krishna and his close friend and disciple, Arjuna.
 
 ISKCON traces its spiritual lineage directly to the speaker of this sacred book, Lord Krishna, who is revered as the Supreme Personality of Godhead. The text teaches that the goal of life is to develop love of God, or Krishna. Love of God is realised through the practice of bhakti-yoga, the science of devotional service.
 In the latter part of the 15th century, a saint named Chaitanya Mahaprabhu revitalised the bhakti-yoga tradition by introducing an expansive spiritual movement that swept India. Central to this renaissance was Chaitanya’s emphasis on the chanting of Krishna’s name. Underlying this simple practice was a profound, rational, and intellectually comprehensive theology. Hare Krishna devotees worship Lord Chaitanya as an incarnation of Krishna for this age, and ISKCON is a continuation of the movement Chaitanya revitalised.
