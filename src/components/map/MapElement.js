@@ -2,7 +2,7 @@ import React from 'react'
 import Map from 'pigeon-maps'
 import Overlay from 'pigeon-overlay'
 
-import { Box } from 'grommet'
+import { Box, Text } from 'grommet'
 import { Location, Target } from 'grommet-icons'
 
 import PostPreview from '../posts/PostPreview'
@@ -20,20 +20,24 @@ const phrases = [
 
 const Marker = ({ left, top, latLngToPixel, onClick, payload, icon, active = false, color = 'control', activeColor = 'background', background = 'background', activeBackground = 'accent-4', children, ...rest }) => (
   <Box
+    direction='row'
+    flex
     style={{
       cursor: 'pointer',
       position: 'absolute',
       left: left,
       top: top
     }}
-    pad='xxsmall'
+    pad='2px'
     className='pigeon-click-block'
-    background={active ? activeBackground : background}
-    round
+    background={active ? activeBackground : payload.id === 'geolocation' ? background : { color: 'black', opacity: 'strong', dark: true }}
+    // background={active ? activeBackground : background}
+    round='xlarge'
     onClick={() => onClick && onClick({ payload })}
     {...rest}
   >
-    {icon || <Location size='small' color={active ? activeColor : color} />}
+    {icon || <Location size='medium' color={active ? activeColor : color} />}
+    <Box flex align='center' justify='center'><Text size='xsmall'>{payload.title}</Text></Box>
   </Box>
 )
 
@@ -61,7 +65,7 @@ const MyMap = ({ results = [], active = null, handleClick, handleBoundsChanged, 
           payload={{ id: 'geolocation', location: [geolocation.coords.latitude, geolocation.coords.longitude], text: phrases[Math.floor(Math.random() * phrases.length)] }}
           anchor={[geolocation.coords.latitude, geolocation.coords.longitude]}
           onClick={({ payload }) => handleClick(payload)}
-          background='#6b76ff'
+          background={{ color: '#6b76ff', dark: true }}
           color='white'
           animation='pulse'
         />}
