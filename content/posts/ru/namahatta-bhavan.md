@@ -14,4 +14,4 @@ tags:
   - комната
 ---
 
-<tbd locale="ru" url="https://docs.google.com/document/d/1Xc0yU2MCMPd2I1d-pJyrCr57RMwSkCJ1scinBhEz-Aw/edit#heading=h.lpf73w5y5rtu"></tbd>
+<tbd locale="ru" url="mailto:haribol@mayapur.live"></tbd>

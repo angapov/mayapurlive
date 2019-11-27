@@ -13,7 +13,7 @@ tags:
   - школа
 ---
 
-<tbd locale="ru" url="https://docs.google.com/document/d/12ZgzpmqFkqAct-gaIfJOUKDLM6cYFdaFTowd7TOfD5g/edit#heading=h.hcgxep5k0elj"></tbd>
+<tbd locale="ru" url="mailto:haribol@mayapur.live"></tbd>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LHk-6Vgort0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

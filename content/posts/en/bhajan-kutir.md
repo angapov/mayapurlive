@@ -15,4 +15,4 @@ tags:
   - prabhupada
 ---
 
-<tbd locale="en" url="https://docs.google.com/document/d/1FDvmWjAElzRwfBQMRaO-a-AN2lq4LaEJ1QfoQTzeUzg/edit#heading=h.hneqwe5o394o"></tbd>
+<tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

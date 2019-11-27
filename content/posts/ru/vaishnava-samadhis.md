@@ -13,4 +13,4 @@ tags:
   - самадхи
 ---
 
-<tbd locale="ru" url="https://docs.google.com/document/d/17MLwMeQwInzUIdkhnsmuGmO5bLFrLJU7yZUA9o01h4M/edit#heading=h.kdjmisb5hj2e"></tbd>
+<tbd locale="ru" url="mailto:haribol@mayapur.live"></tbd>

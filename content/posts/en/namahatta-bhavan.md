@@ -14,4 +14,4 @@ tags:
   - room
 ---
 
-<tbd locale="en" url="https://docs.google.com/document/d/1Xc0yU2MCMPd2I1d-pJyrCr57RMwSkCJ1scinBhEz-Aw/edit#heading=h.b7fx92hxecxd"></tbd>
+<tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

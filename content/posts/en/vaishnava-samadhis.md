@@ -13,4 +13,4 @@ tags:
   - samadhi
 ---
 
-<tbd locale="en" url="https://docs.google.com/document/d/17MLwMeQwInzUIdkhnsmuGmO5bLFrLJU7yZUA9o01h4M/edit#heading=h.3d1oy696pgrg"></tbd>
+<tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

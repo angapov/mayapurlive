@@ -1,5 +1,5 @@
 ---
-category: /ru/holy-places/
+category: /ru/iskcon-mayapur/
 templateKey: post
 locale: ru
 title: Храм Джаганнатхи
@@ -13,4 +13,4 @@ tags:
   - храм
 ---
 
-<tbd locale="ru" url="https://docs.google.com/document/d/1_bJJPNv_5x7W8Okbs3Bs_2Hm22iBRT-SXIXlNDxbxTo/edit#heading=h.lj6thzc32pkq"></tbd>
+<tbd locale="ru" url="mailto:haribol@mayapur.live"></tbd>

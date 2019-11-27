@@ -39,4 +39,4 @@ The temple presents an exhibition of relief paintings depicting the pasttimes of
 
 On the second floor there are two rooms in which [Srila Prabhupada](/en/srila-prabhupada) lived from 1976 to 1977. The furniture in the rooms is the same as during the life of His Divine Grace. From 10.00 to 13.00 you can read japa there.
 
-<tbd locale="en" url="https://docs.google.com/document/d/1bh_tIFq_fIeTXLYyYaB9DbfMjO96WRfPReNGDaxuBi0/edit#heading=h.3s0emu1zij8k" />
+<tbd locale="en" url="mailto:haribol@mayapur.live" />

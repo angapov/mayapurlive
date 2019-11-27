@@ -1,5 +1,5 @@
 ---
-category: /en/holy-places/
+category: /en/iskcon-mayapur/
 templateKey: post
 locale: en
 title: Jagannath Temple
@@ -13,4 +13,4 @@ tags:
   - temple
 ---
 
-<tbd locale="en" url="https://docs.google.com/document/d/1_bJJPNv_5x7W8Okbs3Bs_2Hm22iBRT-SXIXlNDxbxTo/edit#heading=h.rtfz73ixty47"></tbd>
+<tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

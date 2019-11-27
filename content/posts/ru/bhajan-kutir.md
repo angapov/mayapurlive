@@ -15,4 +15,4 @@ tags:
   - прабхупада
 ---
 
-<tbd locale="ru" url="https://docs.google.com/document/d/1FDvmWjAElzRwfBQMRaO-a-AN2lq4LaEJ1QfoQTzeUzg/edit#heading=h.8bamjuvmapp8"></tbd>
+<tbd locale="ru" url="mailto:haribol@mayapur.live"></tbd>

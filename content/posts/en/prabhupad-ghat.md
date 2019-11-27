@@ -13,4 +13,4 @@ tags:
   - ganga
 ---
 
-<tbd locale="ru" url="https://docs.google.com/document/d/1SVZs-ZzoYWhJVpxIcqQC7BXaJnwr1wVa9hi_BwaaUec/edit#heading=h.qana0972zaa3"></tbd>
+<tbd locale="ru" url="mailto:haribol@mayapur.live"></tbd>
