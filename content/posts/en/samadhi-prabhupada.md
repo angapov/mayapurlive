@@ -15,6 +15,23 @@ tags:
   - samadhi
 ---
 
-The garland which adorned His Divine Grace while placing him in Samadhi has been brought and laid down in His Pushpa Samadhi Mandir at Mayapur. A larger than life size brass murti of Srila Prabhupada has been installed and is being worshipped here.
+In [Samadhi](/en/glossary/#samadhi), the [Srila Prabhupada](/en/srila-prabhupada) more than life-size murti is established and the garland that adorned His Divine Grace is stored.
 
-The lake, which is located on the territory of Samadhi and framed by the Temple, existed here from the beginning, before construction. Some holidays, you can see a beautiful action, as Srila Prabhupada taken out of the Temple and ride on a boat. When the construction of the Mayapur began, Srila Prabhupada noticed the lake and said that it would be great if there was his house, where during hot days the water was cool and there he could write his books. However soon the time played, at this place began the construction of not a small house but a large Temple with flower gardens, beautiful sky dome and the stories of the preaching and life of the great ācārya in the bas-reliefs.
+####Shedule:
+  - 4:10 **Mangala-arati**
+  - 7:30 **Darshan-arati**
+  - 9:00 **Museum opens**
+  - 13:00 - 15:30 samadhi and museum closed
+  - 15:30 **Dhup arati**
+  - 20:30 museum closes
+  - 20:45 samadhi closes
+
+There is a museum in Samadhi, in which miniatures present scenes from the life of Srila Prabhupada.
+
+Also in the territory there is a book department and a shop with [mahaprasad](/en/glossary/#mahaprasad).
+
+In the holy month of kartika in samadhi, wicks are offered to Lord Damodara.
+
+The lake, which is located on the territory of Samadhi and is framed by the Temple, existed here from the very beginning, before construction. On some holidays, you can watch a beautiful action, as Srila Prabhupada is taken out of the Temple and boated.
+
+<tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

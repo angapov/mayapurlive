@@ -53,6 +53,10 @@ Beads worn around the neck by devotees of Krishna.
 
 (sankirtana) - chanting of holy names of God.
 
+### Samadhi
+
+The burial place of an exalted Vaisnava. Usually, according to Vaisnava traditions, after leaving, the body is cremated and the dust is scattered over the sacred rivers. But the body of a great Vaisnava is transcendental, therefore, after a certain ceremony, the body of such a Vaisnava is buried in the ground, and then a temple is built.
+
 ### Vrindavan
 
 (Vrndavana) - the eternal abode of Lord Krishna, where He fully manifests His attractiveness; a village on Earth in which He held His childhood games five thousand years ago.

@@ -15,4 +15,10 @@ tags:
   - prabhupada
 ---
 
+The first building in ISKCON Mayapur, where Srila Prabhupada lived with his students, is a thatched-roof hut that has been preserved almost intact. Now here, to satisfy Srila Prabhupada, a 24-hour kirtan is being held.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GpRvINDyGQc?start=208" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+To ensure continuous chanting, four groups of devotees are engaged in kirtan, with mirror shifts of three hours at day time and three hours at night. The shift shifts in time every two weeks. One group consists of Western devotees.
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>
