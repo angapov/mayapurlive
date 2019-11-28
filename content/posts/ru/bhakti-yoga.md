@@ -4,6 +4,7 @@ templateKey: post
 locale: ru
 title: Бхакти-йога
 image: ../../images/posts/bhakti-yoga.jpg
+order: 6
 date: 2018-12-07T15:04:11.000Z
 description: Бхакти-йога
 tags:

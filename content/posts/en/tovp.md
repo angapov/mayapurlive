@@ -4,6 +4,7 @@ templateKey: post
 locale: en
 title: Temple of the Vedic Planetarium
 image: ../../images/posts/tovp.jpg
+order: 1
 date: 2018-12-07T15:05:10.000Z
 description: Temple of the Vedic Planetarium
 location:

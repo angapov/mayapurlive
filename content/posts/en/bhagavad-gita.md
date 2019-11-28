@@ -4,6 +4,7 @@ templateKey: post
 locale: en
 title: Bhagavad Gita
 image: ../../images/posts/bhagavad-gita.jpg
+order: 3
 date: 2018-12-07T15:05:10.000Z
 description: Bhagavad Gita
 tags:

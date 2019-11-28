@@ -4,6 +4,7 @@ templateKey: post
 locale: ru
 title: Храм Радха Мадхавы
 image: ../../images/posts/radha-madhava-temple.jpg
+order: 3
 date: 2018-12-07T15:05:10.000Z
 description: Храм Радха Мадхавы
 location:
@@ -15,7 +16,7 @@ tags:
 ---
 [Узнать расписание](#расписание-программ) | [Смотреть трансляцию](/ru/stream)
 
-Пока строится [Храм Ведического Планетария](/ru/tovp), в храме Лотус Билдинг  живут божества Шри Шри Радха Мадхавы в окружении Ашта-сакхи, восьми главных гопи, Божество Господа Нрисимхидева и Шри Панчататтва.
+Пока строится [Храм Ведического Планетария](/ru/tovp), в этом храме установлены божества Шри Шри Радха Мадхавы в окружении Ашта-сакхи, восьми главных гопи, Божество Господа Нрисимхидева и Шри Панчататтва.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rtstv_zGBBw?start=58" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -37,5 +38,6 @@ tags:
 
 На втором этаже находятся две комнаты, в которых [Шрила Прабхупада](/ru/srila-prabhupada) жил с 1976 по 1977 год. Обстановка в комнатах та же, что и при жизни Его Божественной Милости. С 10.00 до 13.00 в них можно читать джапу.
 
+На втором этаже Вы можете посетить [комнаты](/ru/srila-prabhupada-room), в которых [Шрила Прабхупада](/en/srila-prabhupada) жил после [Бхаджан Кутира](/ru/bhajan-kutir) с 1973 года.
 
 <tbd locale="ru" url="https://docs.google.com/document/d/1bh_tIFq_fIeTXLYyYaB9DbfMjO96WRfPReNGDaxuBi0/edit#heading=h.9t65zsun0neu" />

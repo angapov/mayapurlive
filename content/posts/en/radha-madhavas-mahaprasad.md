@@ -4,6 +4,7 @@ templateKey: post
 locale: en
 title: Radha Madhava's Mahaprasad
 image: ../../images/posts/radha-madhavas-mahaprasad.jpg
+order: 2
 date: 2018-12-07T15:04:10.000Z
 description: All the bhoga that is offered to the deities (except the Raj-bhoga offering) is available as Mahaprasad.
 location:

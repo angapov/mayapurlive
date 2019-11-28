@@ -4,6 +4,7 @@ templateKey: post
 locale: ru
 title: Глоссарий
 image: ../../images/posts/glossary.jpg
+order: 7
 date: 2018-12-07T15:04:10.000Z
 description: Глоссарий
 tags: []

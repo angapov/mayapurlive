@@ -4,6 +4,7 @@ templateKey: post
 locale: ru
 title: Намахата Бхаван
 image: ../../images/posts/namahatta-bhavan.jpg
+order: 1
 date: 2018-12-07T15:04:10.000Z
 description: Намахата Бхаван
 location:

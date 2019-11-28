@@ -4,6 +4,7 @@ templateKey: post
 locale: ru
 title: Махапрасад от Радха Мадхавы
 image: ../../images/posts/radha-madhavas-mahaprasad.jpg
+order: 2
 date: 2018-12-07T15:04:10.000Z
 description: Вся бхога которая предлагается божествам (кроме Раджа-бхоги) доступна как махапрасад.
 location:

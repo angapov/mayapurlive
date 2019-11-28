@@ -4,6 +4,7 @@ templateKey: post
 locale: ru
 title: Йогапитх
 image: ../../images/posts/yogapith.jpg
+order: 1
 date: 2018-12-07T15:04:10.000Z
 description: Место явления Господа Шри Чайтаньи Махапрабху
 location:

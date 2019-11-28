@@ -4,6 +4,7 @@ templateKey: post
 locale: ru
 title: Бхаджан Кутир
 image: ../../images/posts/bhajan-kutir.jpg
+order: 5
 date: 2018-12-06T15:05:09.000Z
 description: Бхаджан Кутир
 location:

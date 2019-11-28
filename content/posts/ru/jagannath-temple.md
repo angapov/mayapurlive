@@ -4,6 +4,7 @@ templateKey: post
 locale: ru
 title: Храм Джаганнатхи
 image: ../../images/posts/jagannath-temple.jpg
+order: 11
 date: 2018-12-01T15:06:10.000Z
 description: Храм Джаганнатхи в Раджапуре
 location:

@@ -4,6 +4,7 @@ templateKey: post
 locale: en
 title: Bhakti Yoga
 image: ../../images/posts/bhakti-yoga.jpg
+order: 6
 date: 2018-12-07T15:04:11.000Z
 description: Bhakti Yoga
 tags:

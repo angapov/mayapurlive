@@ -4,6 +4,7 @@ templateKey: post
 locale: ru
 title: Купольный кинотеатр
 image: ../../images/posts/fulldome-theater.jpg
+order: 8
 date: 2018-12-07T15:05:10.000Z
 description: Купольный кинотеатр
 location:

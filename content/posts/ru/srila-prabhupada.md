@@ -4,6 +4,7 @@ templateKey: post
 locale: ru
 title: Шрила Прабхупада
 image: ../../images/posts/srila-prabhupada.jpg
+order: 2
 date: 2018-12-08T15:04:10.000Z
 description: Hello World Blog Post EN
 gallery:

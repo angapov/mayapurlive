@@ -4,6 +4,7 @@ templateKey: post
 locale: en
 title: Yogapith
 image: ../../images/posts/yogapith.jpg
+order: 1
 date: 2018-12-07T15:04:10.000Z
 description: The appearance place of the Lord Sri Caitanya Mahaprabhu
 location:

@@ -4,6 +4,7 @@ templateKey: post
 locale: en
 title: Conch Bhavan
 image: ../../images/posts/conch-bhavan.jpg
+order: 1
 date: 2018-12-07T15:04:10.000Z
 description: The bhavan is just behind main temple and strategically located from a number of prominent tourist places some of which are within walking distance and surrounded by lush green flora and fauna with a majestic view of the campus.
 location:

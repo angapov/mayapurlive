@@ -4,6 +4,7 @@ templateKey: post
 locale: en
 title: Govindas
 image: ../../images/posts/govindas.jpg
+order: 1
 date: 2018-12-07T15:04:10.000Z
 description: Air-conditioned restaraunt with italian pizza in the middle of Sri Dham Mayapur.
 location:

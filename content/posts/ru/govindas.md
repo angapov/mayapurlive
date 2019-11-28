@@ -4,6 +4,7 @@ templateKey: post
 locale: ru
 title: Говиндас
 image: ../../images/posts/govindas.jpg
+order: 1
 date: 2018-12-07T15:04:10.000Z
 description: Ресторан с концидионером и итальянской пиццей в центре Шри Маяпур Дхамы.
 location:

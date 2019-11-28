@@ -4,6 +4,7 @@ templateKey: post
 locale: en
 title: Radha Madhava Temple
 image: ../../images/posts/radha-madhava-temple.jpg
+order: 3
 date: 2018-12-07T15:05:10.000Z
 description: Radha Madhava Temple
 location:
@@ -17,7 +18,7 @@ tags:
 [Show shedule](#programs-shedule) | [Watch streaming](/en/stream)
 
 While [Temple of the Vedic Planetarium](/en/tovp) is being built, deities of Sri Sri Radha Madhava
-with eight main gopis, Lord Nrisimhadeva and Sri Pancha Tattva resides in Lotus Building.
+with eight main gopis, Lord Nrisimhadeva and Sri Pancha Tattva resides in this temple.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rtstv_zGBBw?start=58" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -36,7 +37,6 @@ On ekadashi there is an all day kirtan.
 
 The temple presents an exhibition of relief paintings depicting the pasttimes of Lord Caitanya Mahaprabhu, visiting time from 10.00 to 13.00 and from 16.00 to 18.00.
 
-
-On the second floor there are two rooms in which [Srila Prabhupada](/en/srila-prabhupada) lived from 1976 to 1977. The furniture in the rooms is the same as during the life of His Divine Grace. From 10.00 to 13.00 you can read japa there.
+On the second floor you can visit [rooms](/en/srila-prabhupada-room) to which [Srila Prabhupada](/en/srila-prabhupada) moved from [Bhajan Kutir](/en/bhajan-kutir) in 1973.
 
 <tbd locale="en" url="mailto:haribol@mayapur.live" />

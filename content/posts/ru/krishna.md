@@ -4,6 +4,7 @@ templateKey: post
 locale: ru
 title: Кришна
 image: ../../images/posts/krishna.jpg
+order: 1
 date: 2018-12-08T15:04:11.000Z
 description: Кришна
 tags:

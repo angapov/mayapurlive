@@ -5,6 +5,7 @@ locale: ru
 pageKey: page_blogpost
 title: Самадхи Шрилы Прабхупады
 image: ../../images/posts/samadhi-prabhupada.jpg
+order: 2
 date: 2018-12-07T15:04:10.000Z
 description: Привет мир Пост RU
 location:

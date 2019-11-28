@@ -4,6 +4,7 @@ templateKey: post
 locale: ru
 title: Веды
 image: ../../images/posts/vedas.jpg
+order: 5
 date: 2018-12-07T15:05:10.000Z
 description: Веды
 tags:

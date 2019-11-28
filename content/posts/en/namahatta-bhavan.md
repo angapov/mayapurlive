@@ -4,6 +4,7 @@ templateKey: post
 locale: en
 title: Namahatta Bhavan
 image: ../../images/posts/namahatta-bhavan.jpg
+order: 1
 date: 2018-12-07T15:04:10.000Z
 description: Namahatta Bhavan
 location:

@@ -4,6 +4,7 @@ templateKey: post
 locale: ru
 title: Гурукула
 image: ../../images/posts/gurukula.jpg
+order: 9
 date: 2018-12-06T15:05:09.000Z
 description: Гурукула
 location:

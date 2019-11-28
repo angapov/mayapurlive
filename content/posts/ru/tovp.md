@@ -5,6 +5,7 @@ locale: ru
 pageKey: page_blogpost
 title: Храм Ведического Планетария
 image: ../../images/posts/tovp.jpg
+order: 1
 date: 2018-12-07T15:05:10.000Z
 description: Храм Ведического Планетария
 location:

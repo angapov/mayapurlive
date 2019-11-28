@@ -4,6 +4,7 @@ templateKey: post
 locale: ru
 title: Бхагавад Гита
 image: ../../images/posts/bhagavad-gita.jpg
+order: 3
 date: 2018-12-07T15:05:10.000Z
 description: Бхагавад Гита
 tags:

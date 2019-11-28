@@ -39,7 +39,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___order], order: ASC }
       filter: {
         frontmatter: { templateKey: { eq: "post" }, category: { frontmatter: { category_id: { eq: $slug } } } } }
     ) {

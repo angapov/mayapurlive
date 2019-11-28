@@ -4,6 +4,7 @@ templateKey: post
 locale: en
 title: Goshala
 image: ../../images/posts/goshala.jpg
+order: 7
 date: 2018-12-06T15:05:09.000Z
 description: Goshala
 location:
