@@ -41,6 +41,13 @@ const customTheme = deepMerge(dark, {
         color: { dark: 'control' }
       }
     }
+  },
+  tab: {
+    color: 'control',
+    active: {
+      color: 'text'
+    },
+    border: null
   }
 })
 
