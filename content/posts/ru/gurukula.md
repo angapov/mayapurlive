@@ -12,6 +12,8 @@ location:
   - 88.395503
 tags:
   - школа
+gallery:
+  - https://filedn.com/lEFPEdElXChp9JmqVnIKbzV/mayapur-live/images/gurukula/gurukula-outside-bridge.jpg
 ---
 
 <tbd locale="ru" url="mailto:haribol@mayapur.live"></tbd>

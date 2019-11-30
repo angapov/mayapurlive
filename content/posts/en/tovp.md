@@ -13,6 +13,9 @@ location:
 tags:
   - temple
   - tovp
+gallery:
+  - https://filedn.com/lEFPEdElXChp9JmqVnIKbzV/mayapur-live/images/tovp/tovp-outside-day.jpg
+  - https://filedn.com/lEFPEdElXChp9JmqVnIKbzV/mayapur-live/images/tovp/tovp-outside-day-road.jpeg
 ---
 
 In the very heart of Mayapur - the world center of Vedic spiritual culture - an extraordinary temple is being built, which, according to the predictions by Srila Bhaktivinoda Thakur, will change the fate of the world. The authorities of Vedic knowledge say that it is after the opening of the Temple of the Vedic Planetarium that the long-awaited Golden Age will come - the revival of spirituality on the whole planet.

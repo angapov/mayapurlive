@@ -14,6 +14,9 @@ location:
 tags:
   - храм
   - хвп
+gallery:
+  - https://filedn.com/lEFPEdElXChp9JmqVnIKbzV/mayapur-live/images/tovp/tovp-outside-day.jpg
+  - https://filedn.com/lEFPEdElXChp9JmqVnIKbzV/mayapur-live/images/tovp/tovp-outside-day-road.jpeg
 ---
 
 В cамом сердце Маяпура – мировом центре ведической духовной культуры – возводится  необыкновенный храм, который, согласно предсказаниям Шрилы Бхактивинода Тхакура, изменит судьбу всего мира. Авторитеты ведического знания говорят, что именно после открытия Храма Ведического Планетария наступит долгожданный Золотой Век – возрождение духовности на всей планете.

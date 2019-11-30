@@ -4,7 +4,7 @@ templateKey: post
 locale: en
 title: Glossary
 image: ../../images/posts/glossary.jpg
-order: 7
+order: 8
 date: 2018-12-07T15:04:10.000Z
 description: Glossary
 tags: []
