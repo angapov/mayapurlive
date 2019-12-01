@@ -16,8 +16,11 @@ gallery:
   - https://filedn.com/lEFPEdElXChp9JmqVnIKbzV/mayapur-live/images/gurukula/gurukula-outside-bridge.jpg
 ---
 
-<tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>
+Gurukula is a part of Bhaktivedanta Academy - an institution dedicated to illuminating society through spiritual education, established in Mayapur in 1984.
+Bhaktivedanta Academy aim to educate leaders for [Śrīla Prabhupāda’s](/en/srila-prabhupada) movement for the respiritualization of humanity, which is meant to effect a change in the entire course of human history.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/10Ck-5jYJ7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 More information on [Gurukula official website](https://bhaktivedantaacademy.com)
+
+<tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>
