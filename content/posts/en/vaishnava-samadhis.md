@@ -14,7 +14,7 @@ tags:
   - samadhi
 ---
 
-Next to [Srila Prabhupada Samadhi](/en/samadhi-prabhupada) [samadhi](/en/glossary/#samadhi) of his disciples, exalted Vaishnavas are located, who were also spiritual teachers and made a great contribution to the development of [ISKCON](/en/iskcon)
+Next to [Srila Prabhupada Samadhi](/en/prabhupada-samadhi) [samadhi](/en/glossary/#samadhi) of his disciples, exalted Vaishnavas are located, who were also spiritual teachers and made a great contribution to the development of [ISKCON](/en/iskcon)
 
   - H.H. Bhakti Tirtha Swami (1950-2003)
   - H.H. Gour Govinda Swami (1929-1996)

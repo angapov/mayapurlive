@@ -37,6 +37,6 @@ On ekadashi there is an all day kirtan.
 
 The temple presents an exhibition of relief paintings depicting the pasttimes of Lord Caitanya Mahaprabhu, visiting time from 10.00 to 13.00 and from 16.00 to 18.00.
 
-On the second floor you can visit [rooms](/en/srila-prabhupada-room) to which [Srila Prabhupada](/en/srila-prabhupada) moved from [Bhajan Kutir](/en/bhajan-kutir) in 1973.
+On the second floor you can visit [rooms](/en/prabhupada-room) to which [Srila Prabhupada](/en/srila-prabhupada) moved from [Bhajan Kutir](/en/bhajan-kutir) in 1973.
 
 <tbd locale="en" url="mailto:haribol@mayapur.live" />

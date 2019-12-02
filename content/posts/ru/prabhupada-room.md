@@ -3,7 +3,7 @@ category: /ru/iskcon-mayapur/
 templateKey: post
 locale: ru
 title: Комната Шрилы Прабхупады
-image: ../../images/posts/srila-prabhupada-room.jpg
+image: ../../images/posts/prabhupada-room.jpg
 order: 4
 date: 2018-12-07T15:05:10.000Z
 description: Комната Шрилы Прабхупады

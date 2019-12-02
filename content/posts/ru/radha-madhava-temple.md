@@ -38,6 +38,6 @@ tags:
 
 На втором этаже находятся две комнаты, в которых [Шрила Прабхупада](/ru/srila-prabhupada) жил с 1976 по 1977 год. Обстановка в комнатах та же, что и при жизни Его Божественной Милости. С 10.00 до 13.00 в них можно читать джапу.
 
-На втором этаже Вы можете посетить [комнаты](/ru/srila-prabhupada-room), в которых [Шрила Прабхупада](/en/srila-prabhupada) жил после [Бхаджан Кутира](/ru/bhajan-kutir) с 1973 года.
+На втором этаже Вы можете посетить [комнаты](/ru/prabhupada-room), в которых [Шрила Прабхупада](/en/srila-prabhupada) жил после [Бхаджан Кутира](/ru/bhajan-kutir) с 1973 года.
 
 <tbd locale="ru" url="https://docs.google.com/document/d/1bh_tIFq_fIeTXLYyYaB9DbfMjO96WRfPReNGDaxuBi0/edit#heading=h.9t65zsun0neu" />

@@ -4,7 +4,7 @@ templateKey: post
 locale: en
 pageKey: page_blogpost
 title: Srila Prabhupada Samadhi
-image: ../../images/posts/samadhi-prabhupada.jpg
+image: ../../images/posts/prabhupada-samadhi.jpg
 order: 2
 date: 2018-12-07T15:04:10.000Z
 description: Hello World Blog Post EN
