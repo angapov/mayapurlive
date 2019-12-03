@@ -1,5 +1,7 @@
 ---
 category: /ru/food/
+published: true
+status: 'done'
 templateKey: post
 locale: ru
 title: Махапрасад от Радха Мадхавы

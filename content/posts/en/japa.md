@@ -1,5 +1,7 @@
 ---
 category: /en/knowledge-base/
+published: true
+status: 'done'
 templateKey: post
 locale: en
 title: Japa

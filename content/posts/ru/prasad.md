@@ -1,5 +1,7 @@
 ---
 category: /ru/knowledge-base/
+published: true
+status: 'done'
 templateKey: post
 locale: ru
 title: Прасад

@@ -1,5 +1,7 @@
 ---
 category: /en/iskcon-mayapur/
+published: true
+status: 'done'
 templateKey: post
 locale: en
 title: Bhajan Kutir

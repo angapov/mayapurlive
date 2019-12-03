@@ -41,7 +41,7 @@ export const pageQuery = graphql`
       limit: 1000
       sort: { fields: [frontmatter___order], order: ASC }
       filter: {
-        frontmatter: { templateKey: { eq: "post" }, category: { frontmatter: { category_id: { eq: $slug } } } } }
+        frontmatter: { templateKey: { eq: "post" }, published: { eq: true }, category: { frontmatter: { category_id: { eq: $slug } } } } }
     ) {
       totalCount
       edges {

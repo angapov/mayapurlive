@@ -1,6 +1,8 @@
 ---
 category: /ru/knowledge-base/
 templateKey: post
+published: true
+status: 'done'
 locale: ru
 title: ИСККОН
 image: ../../images/posts/iskcon.jpg

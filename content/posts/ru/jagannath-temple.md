@@ -1,6 +1,8 @@
 ---
 category: /ru/iskcon-mayapur/
 templateKey: post
+published: true
+status: 'done'
 locale: ru
 title: Храм Джаганнатхи
 image: ../../images/posts/jagannath-temple.jpg

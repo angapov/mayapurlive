@@ -1,6 +1,6 @@
 import React from 'react'
-import { Box, Heading, Layer, ResponsiveContext, Button } from 'grommet'
-import { Previous, LinkPrevious } from 'grommet-icons'
+import { Box, Heading, Layer, ResponsiveContext, Button, Stack, Text } from 'grommet'
+import { Previous, LinkPrevious, Camera } from 'grommet-icons'
 import { renderAst } from '../../lib'
 import Tags from './Tags'
 import Image from '../Image'
@@ -29,7 +29,19 @@ export default ({ post }) => {
         </Box>
         <Tags tags={post.tags.map(tag => ({ value: tag, path: `/tags/${tag}` }))} />
       </Box>
-      <Box onClick={() => setOpen(true)} width={{ max: 'large' }} background={!post.image && 'dark-1'} fill>{post.image && <Image gatsbyImage={post.image.childImageSharp} />}</Box>
+      <Box style={{ cursor: 'pointer' }} onClick={() => setOpen(true)} width={{ max: 'large' }} background={!post.image && 'dark-1'} fill>
+        {post.image && (
+          <Stack>
+            <Image gatsbyImage={post.image.childImageSharp} />
+            <Box fill align='start' justify='end'>
+              <Box pad='small' direction='row' gap='xsmall'>
+                <Button plain icon={<Camera color='control' />} />
+                <Text>{(post.gallery || []).length + 1}</Text>
+              </Box>
+            </Box>
+          </Stack>
+        )}
+      </Box>
       <Box align='start' fill='vertical' width={{ min: 'small', max: 'large' }}>{renderAst(post.htmlAst)}</Box>
     </Box>
   )

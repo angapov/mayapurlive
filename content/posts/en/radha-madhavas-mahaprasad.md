@@ -1,5 +1,7 @@
 ---
 category: /en/food/
+published: true
+status: 'done'
 templateKey: post
 locale: en
 title: Radha Madhava's Mahaprasad

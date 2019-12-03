@@ -1,26 +1,116 @@
 import React from 'react'
-import { Box } from 'grommet'
-
+// import { kebabCase } from 'lodash'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import PageSEO from '../components/seo'
 
-import intl from '../intl'
+import { Box, DataTable, Meter } from 'grommet'
+import Link from '../components/Link'
 
-const ToVP360Page = ({ pageContext: { locale = intl.defaultLocale } }) => {
+const Content = ({ posts, categories }) => {
+  console.log(posts, categories)
+  const publishedPercent = 100 * posts.filter(post => post.published).length / posts.length
+  const [expandedGroups, setExpandedGroups] = React.useState(categories.map(category => category.title))
+  const columns = [
+    { header: 'Category', property: 'category.title' },
+    { header: 'Title', property: 'title', render: post => post.path && <Link to={post.path}>{post.title}</Link> },
+    { header: 'Published', property: 'published', render: post => post.published ? 'yes' : null }
+  ]
   return (
-    <Layout>
-      <PageSEO title='Content' lang={locale} />
-      <Box flex>
-        <iframe
-          style={{ height: '100%', width: '100%', flex: '1 1 auto' }}
-          allowFullscreen
-          frameBorder='0'
-          scrolling='no'
-          src='https://docs.google.com/spreadsheets/d/e/2PACX-1vS1EcQu0XmAdB-0bc0UTXurRK8dog_iSfXbZ1Ji2L0NxMV7To3qstC4_SqX2shZKjRdbFBNDUnFxQmJ/pubhtml?widget=true&headers=false&chrome=false'
+    <Box fill flex>
+      <Box fill pad='small'>
+        <Meter size='full' type='circle' values={[{ value: publishedPercent, color: 'status-ok', label: '45%' }]} />
+      </Box>
+      <Box fill pad='small'>
+        <DataTable
+          columns={columns}
+          data={posts}
+          groupBy={{
+            property: 'category.title',
+            expand: expandedGroups,
+            onExpand: setExpandedGroups
+          }}
         />
       </Box>
-    </Layout>
+    </Box>
   )
 }
 
-export default ToVP360Page
+const ContentPage = ({
+  data: {
+    categoriesRemark,
+    postsRemark,
+    site: {
+      siteMetadata: { title }
+    }
+  }
+}) => {
+  const posts = postsRemark.edges.map(({ node }) => ({ ...node.frontmatter, path: node.fields.slug, category: { title: node.frontmatter.category.frontmatter.title, path: node.frontmatter.category.frontmatter.category_id } }))
+  const categories = categoriesRemark.edges.map(({ node }) => ({ ...node.frontmatter, path: node.fields.slug }))
+  return (
+    (
+      <Layout>
+        <PageSEO title='Content' />
+        <Content posts={posts} categories={categories} />
+      </Layout>
+    )
+  )
+}
+
+export default ContentPage
+
+export const contentPageQuery = graphql`
+  query ContentQuery($locale: String) {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    categoriesRemark: allMarkdownRemark(limit: 1000, sort: { fields: [frontmatter___order], order: ASC }, filter: { frontmatter: { templateKey: { eq: "category" }, locale: { eq: $locale } } }) {
+      totalCount
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            category_id
+            title
+            image {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    postsRemark: allMarkdownRemark(limit: 1000, sort: { fields: [frontmatter___order], order: ASC }, filter: { frontmatter: { templateKey: { eq: "post" }, locale: { eq: $locale } } }) {
+      totalCount
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            published
+            status
+            tags
+            gallery
+            category { frontmatter { category_id, title } }
+            image {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`

@@ -1,5 +1,7 @@
 ---
 category: /ru/iskcon-mayapur/
+published: true
+status: 'done'
 templateKey: post
 locale: ru
 title: Храм Радха Мадхавы

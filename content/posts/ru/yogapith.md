@@ -1,5 +1,7 @@
 ---
 category: /ru/holy-places/
+published: true
+status: 'done'
 templateKey: post
 locale: ru
 title: Йогапитх

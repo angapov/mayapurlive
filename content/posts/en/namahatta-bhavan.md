@@ -1,5 +1,7 @@
 ---
 category: /en/accommodation/
+published: true
+status: 'done'
 templateKey: post
 locale: en
 title: Namahatta Bhavan

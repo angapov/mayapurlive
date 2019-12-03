@@ -1,5 +1,7 @@
 ---
 category: /ru/accommodation/
+published: true
+status: 'done'
 templateKey: post
 locale: ru
 title: Гада бхаван

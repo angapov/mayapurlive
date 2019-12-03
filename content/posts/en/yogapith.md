@@ -1,5 +1,7 @@
 ---
 category: /en/holy-places/
+published: true
+status: 'done'
 templateKey: post
 locale: en
 title: Yogapith
