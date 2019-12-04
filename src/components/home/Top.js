@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Stack, Text, ResponsiveContext, TextInput, Form, FormField, Button, Layer } from 'grommet'
-import { Search as SearchIcon, LinkPrevious } from 'grommet-icons'
+import { Search as SearchIcon, LinkPrevious, Tag } from 'grommet-icons'
 import { useStaticQuery, graphql } from 'gatsby'
 import Image from '../Image'
 import InDevelopment from '../InDevelopment'
@@ -40,6 +40,7 @@ const Search = ({ lang = intl.defaultLocale }) => {
     <Box align='center' justify='center' fill='horizontal' direction='row' gap='xsmall' background={!isSmall ? { color: 'black', opacity: 'medium' } : 'background'}>
       <Form onSubmit={onSubmit} style={{ width: '100%' }}>
         <Box direction='row' fill gap='small' background={{ dark: true }} pad={!isSmall && 'xsmall'}>
+          <Link to='/tags'><Box pad='small' align='center' justify='center' fill><Tag color='control' /></Box></Link>
           <FormField name='search' style={{ width: '100%' }}>
             <TextInput
               data-testid='search.input'

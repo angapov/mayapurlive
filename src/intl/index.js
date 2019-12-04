@@ -104,5 +104,25 @@ export default {
   in_development: {
     en: 'Feature in development...',
     ru: 'Функционал в разработке...'
+  },
+  content_published: {
+    en: 'Published',
+    ru: 'Опубликовано'
+  },
+  content_table_title: {
+    en: 'Titled',
+    ru: 'Заголовок'
+  },
+  content_table_image: {
+    en: 'Image',
+    ru: 'Картинка'
+  },
+  content_table_gallery: {
+    en: 'Gallery',
+    ru: 'Галерея'
+  },
+  content_table_category: {
+    en: 'Category',
+    ru: 'Категория'
   }
 }

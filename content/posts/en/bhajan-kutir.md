@@ -24,4 +24,8 @@ The first building in ISKCON Mayapur, where Srila Prabhupada lived with his stud
 
 To ensure continuous chanting, four groups of devotees are engaged in kirtan, with mirror shifts of three hours at day time and three hours at night. The shift shifts in time every two weeks. One group consists of Western devotees.
 
+#### Live Stream
+
+<iframe width='600px' height='400px' align='center' frameborder='no' scrolling='no' src='https://www.mayapur.tv/iframe/playerplus/index.php?stream=MayapurTV/MayapurBhajanKutir' allowfullscreen></iframe
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

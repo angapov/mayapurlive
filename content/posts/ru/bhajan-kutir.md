@@ -24,4 +24,8 @@ tags:
 
 Чтобы обеспечить непрерывное воспевание, в киртане заняты служением четыре группы преданных с зеркальными сменами по три часа днем и три часа ночью. Смена сдвигается по времени каждые две недели. Одна из групп состоит из западных преданных.
 
+#### Прямая трансляция
+
+<iframe width='600px' height='400px' align='center' frameborder='no' scrolling='no' src='https://www.mayapur.tv/iframe/playerplus/index.php?stream=MayapurTV/MayapurBhajanKutir' allowfullscreen></iframe
+
 <tbd locale="ru" url="mailto:haribol@mayapur.live"></tbd>
