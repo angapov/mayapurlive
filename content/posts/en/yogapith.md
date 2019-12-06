@@ -6,13 +6,15 @@ templateKey: post
 locale: en
 title: Yogapith
 image: ../../images/posts/yogapith.jpg
-order: 1
+order: 2
 date: 2018-12-07T15:04:10.000Z
 description: The appearance place of the Lord Sri Caitanya Mahaprabhu
 location:
   - 23.4383
   - 88.3927
 tags:
+  - parikrama
+  - antardwipa
   - temple
   - appearanceplace
 ---

@@ -6,13 +6,14 @@ templateKey: post
 locale: ru
 title: Йогапитх
 image: ../../images/posts/yogapith.jpg
-order: 1
+order: 2
 date: 2018-12-07T15:04:10.000Z
 description: Место явления Господа Шри Чайтаньи Махапрабху
 location:
   - 23.4383
   - 88.3927
 tags:
+  - антардвипа
   - храм
   - местоявления
 ---
