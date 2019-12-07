@@ -6,7 +6,7 @@ templateKey: post
 locale: en
 title: Srivas Angan
 image: ../../images/posts/srivas-angan.jpg
-order: 2
+order: 3
 date: 2018-12-07T15:04:10.000Z
 description: Small temple where in the past Srivas Thakur house was located
 location:
