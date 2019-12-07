@@ -20,7 +20,7 @@ export const pageQuery = graphql`
   query TagPageQuery($tag: String) {
     allMarkdownRemark(
       limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___order], order: ASC }
       filter: { frontmatter: { templateKey: { eq: "post" }, tags: { in: [$tag] } } }
     ) {
       totalCount

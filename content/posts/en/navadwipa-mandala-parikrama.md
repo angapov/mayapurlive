@@ -4,11 +4,11 @@ published: true
 status: 'in progress'
 templateKey: post
 locale: en
-title: Navadvipa Mandala Parikrama
-image: ../../images/posts/navadvipa-mandala-parikrama.jpg
+title: Navadwipa Mandala Parikrama
+image: ../../images/posts/navadwipa-mandala-parikrama.jpg
 order: 1
 date: 2018-12-07T15:04:10.000Z
-description: Navadvipa Mandala Parikrama
+description: Navadwipa Mandala Parikrama
 tags:
   - parikrama
   - antardwipa

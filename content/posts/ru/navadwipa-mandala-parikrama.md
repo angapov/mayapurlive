@@ -5,7 +5,7 @@ status: 'in progress'
 templateKey: post
 locale: ru
 title: Навадвипа Мандала Парикрама
-image: ../../images/posts/navadvipa-mandala-parikrama.jpg
+image: ../../images/posts/navadwipa-mandala-parikrama.jpg
 order: 1
 date: 2018-12-07T15:04:10.000Z
 description: Навадвипа Мандала Парикрама
@@ -25,6 +25,7 @@ tags:
 
 #### Антардвипа
   - [Йогапитх](/ru/yogapith)
+  - [Шривас Анган](ru/srivas-angan)
   - ...
 
 #### Симантадвипа
