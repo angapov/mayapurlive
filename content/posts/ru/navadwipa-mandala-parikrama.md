@@ -26,7 +26,12 @@ tags:
 #### Антардвипа
   - [Йогапитх](/ru/yogapith)
   - [Шривас Анган](ru/srivas-angan)
-  - ...
+  - [Адвайта Бхаван](ru/advaita-bhavan)
+  - [Гададхара Бхаван](/ru/gadadhara-bhavan)
+  - [Притху кунда](/ru/prithu-kunda)
+  - [Дворец Лакшмана Сены](/ru/lakshmana-sena-palace)
+  - [Дом Мурари Гупты](/ru/murari-gupta-house)
+  - [Чайтанья Матх](/ru/chaitanya-math)
 
 #### Симантадвипа
   - ...
