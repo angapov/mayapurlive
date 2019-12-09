@@ -2,6 +2,8 @@ import React from 'react'
 import Map from 'pigeon-maps'
 import Overlay from 'pigeon-overlay'
 
+import sizeMe from 'react-sizeme'
+
 import { Box, Text } from 'grommet'
 import { Location, Target } from 'grommet-icons'
 
@@ -73,4 +75,4 @@ const MyMap = ({ results = [], active = null, handleClick, handleBoundsChanged, 
   )
 }
 
-export default MyMap
+export default sizeMe({ monitorHeight: true })(MyMap)
