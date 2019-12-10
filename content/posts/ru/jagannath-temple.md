@@ -1,5 +1,5 @@
 ---
-category: /ru/iskcon-mayapur/
+category: /ru/holy-places/
 templateKey: post
 published: true
 status: 'done'
@@ -13,6 +13,7 @@ location:
    - 23.44723
    - 88.41617
 tags:
+  - симантадвипа
   - храм
 ---
 

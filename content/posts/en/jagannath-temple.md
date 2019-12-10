@@ -1,5 +1,5 @@
 ---
-category: /en/iskcon-mayapur/
+category: /en/holy-places/
 published: true
 status: 'done'
 templateKey: post
@@ -13,6 +13,7 @@ location:
    - 23.44723
    - 88.41617
 tags:
+  - simantadwipa
   - temple
 ---
 

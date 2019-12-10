@@ -2,6 +2,7 @@ import React from 'react'
 import { Box, ResponsiveContext, Select } from 'grommet'
 import Posts from '../posts/Posts'
 import Map from './MapContainer'
+// import Map from './MapContainerRefactoring'
 
 import { useLocation, useLocale } from '../../lib'
 
