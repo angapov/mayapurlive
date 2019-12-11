@@ -5,7 +5,7 @@ status: 'in progress'
 templateKey: post
 locale: ru
 title: Дворец Лакшмана Сены
-image:
+image: ../../images/posts/lakshmana-sena-palace.jpg
 order: 7
 date: 2018-12-07T15:04:10.000Z
 description: Развалины дворца Лакшмана Сены, находившегося неподалеку от священного пруда, сохранились до сих пор и входят в число памятников истории и архитектуры, охраняемых государством.
