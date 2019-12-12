@@ -1,12 +1,12 @@
 ---
-category: /ru/holy-places/
+category: /ru/iskcon-mayapur/
 templateKey: post
 published: true
 status: 'done'
 locale: ru
 title: Храм Джаганнатхи
 image: ../../images/posts/jagannath-temple.jpg
-order: 11
+order: 12
 date: 2018-12-01T15:06:10.000Z
 description: Храм Джаганнатхи в Раджапуре
 location:

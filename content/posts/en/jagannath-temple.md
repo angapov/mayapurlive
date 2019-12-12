@@ -1,12 +1,12 @@
 ---
-category: /en/holy-places/
+category: /en/iskcon-mayapur/
 published: true
 status: 'done'
 templateKey: post
 locale: en
 title: Jagannath Temple
 image: ../../images/posts/jagannath-temple.jpg
-order: 11
+order: 12
 date: 2018-12-01T15:06:10.000Z
 description: Rajapur Jagannath Temple
 location:

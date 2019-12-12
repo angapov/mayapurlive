@@ -34,7 +34,7 @@ tags:
   - [Chaitanya Math](/en/chaitanya-math)
 
 #### Simantadwipa
-  - ...
+  - [Simantini Devi Temple](/en/simantini-devi-temple)
 
 #### Godrumadwipa
   - ...
