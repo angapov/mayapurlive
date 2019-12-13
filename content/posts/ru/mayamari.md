@@ -6,7 +6,7 @@ templateKey: post
 locale: ru
 title: Майямари
 image:
-order: 13
+order: 14
 date: 2018-12-01T15:06:10.000Z
 description: Дом Кхолавечи Шридхары
 location:

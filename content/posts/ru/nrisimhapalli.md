@@ -6,7 +6,7 @@ templateKey: post
 locale: ru
 title: Нрисимхапалли
 image:
-order: 15
+order: 16
 date: 2018-12-01T15:06:10.000Z
 description: Нрисимхапалли
 location:

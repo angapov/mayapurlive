@@ -6,7 +6,7 @@ templateKey: post
 locale: ru
 title: Дом Колавечи Шридхары
 image: ../../images/posts/sridhara-angan.jpg
-order: 12
+order: 13
 date: 2018-12-01T15:06:10.000Z
 description: Дом Колавечи Шридхары
 location:
