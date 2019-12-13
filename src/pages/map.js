@@ -50,7 +50,7 @@ export const pageQuery = graphql`
     }
     posts: allMarkdownRemark(
       limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___order], order: ASC }
       filter: {
         frontmatter: { templateKey: { eq: "post" }, locale: { eq: $locale } }
       }
