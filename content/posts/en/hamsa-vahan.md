@@ -13,7 +13,7 @@ location:
    - 23.401412
    - 88.389909
 tags:
-  - godrumadwipa
+  - madhyadwipa
   - temple
 ---
 
