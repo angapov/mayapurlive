@@ -60,4 +60,6 @@ After that, the Ganges became known as Jahnavi - the daughter of the sage Jahnu.
 
 Lord Gauranga, pleased with Jahnu Muni, appeared before him. Jahnu prayed to the Lord to allow him to be born from life to life in Navadvipa. The Lord blessed him, promising that in the future, the sage will witness the sankirtana-lila of Gauranga.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

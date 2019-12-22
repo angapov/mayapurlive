@@ -77,4 +77,6 @@ Babaji Maharaja usually lived six months in Vraja and six months in Navadvipa-dh
 
 This was his last trip to Navadvipa Dhama. A few months later, on the first day of the new moon of the month of Phalgun, two weeks before the anniversary of the appearance of Lord Caitanya, he joined the pastimes of the Lord.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

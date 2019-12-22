@@ -30,4 +30,6 @@ Sri Navadvipa-dhama-mahatmya contains a prediction according to which in the fut
 
 Nrsimhadev is the protector of the devotees, but we should not ask him to become our free guard. Nrsimhadev protects us from the enemies inside our hearts - lust, anger and greed.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

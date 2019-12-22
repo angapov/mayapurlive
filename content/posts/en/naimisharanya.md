@@ -48,4 +48,6 @@ Just as Naimisaranya in Uttar Pradesh is considered the axis of the material uni
 
 Bhaktivinoda Thakur prays: "There, on the bank of Gomati, in Naimisaranya, the Rishis are listening to Gaura-Bhagavatam." To quickly come here and hear the story of Gauranga, Lord Siva saddled Brahma's swan, Sri Hamsa-vahana. Will the time come when I, wandering through the forest, will see a meeting listening to Gaura Purana? On the day of Ekadashi of the holy month of Karttika, on the bank of Gomati, I will hear stories about Sri Caitanya. When will the rishis who listen to Shaunaku show their mercy to me and lay the dust from their feet on my head? I will raise my hands to heaven and exclaim: “O inhabitants of Navadvipa, drink the blessed nectar of Gauranga-lila in this forest!” ”(“ Navadvipa-bhava-taranga ”).
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

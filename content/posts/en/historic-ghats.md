@@ -48,4 +48,6 @@ King Bhagiratha of the Raghu Dynasty led the Ganga-devi to the resting place of 
 
 Lord Nityananda said: "He who fasts on the day of Phalguna Purnima, bathes in this place in the Ganges and worships Gauranga Mahaprabhu, crosses the ocean of the material world with his ancestors."
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

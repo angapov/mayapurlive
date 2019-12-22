@@ -26,4 +26,6 @@ tags:
 
 Приходя в дом Мурари Гупты, мы молимся, чтобы он вылечил нас от духовных болезней.
 
+Источник: [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="ru" url="mailto:haribol@mayapur.live"></tbd>

@@ -85,4 +85,6 @@ In Navadvipa there lived a certain babaji pandita from Kuliya who wore only a lo
 
 “We dress like Sri Caitanya dressed, but we do not stop secretly committing adultery.” Therefore, it is better to dress like the husbands of prostitutes than to wear the clothes that Sri Caitanya wore and secretly commit adultery. So at least we will not be hypocrites.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

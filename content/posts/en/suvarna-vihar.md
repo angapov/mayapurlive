@@ -81,4 +81,6 @@ In the temple are the Deities of Radha-Govinda, established by Bhaktisiddhanta S
 
 Although the ruins of the Suvarna Sena palace can still be seen in the mango garden surrounding the temple, it is not easy to find them ourselves - the remains of the walls were simply pulled apart. You can ask local devotees and they will show what is left.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

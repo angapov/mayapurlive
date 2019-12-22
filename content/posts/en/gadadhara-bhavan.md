@@ -47,4 +47,6 @@ After some time, Gadadhara Pandita asked Lord Caitanya for permission to take in
 
 \- Yes, do it as soon as possible.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

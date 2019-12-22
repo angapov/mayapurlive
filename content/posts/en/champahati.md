@@ -96,4 +96,6 @@ In the last year of his life, Gurudeva [Srila Bhaktisiddhanta Sarasvati Thakur] 
 
 At this point in his lecture, I noticed how something mysterious happened. Guru Maharaja looked around at the huge crowd of devotees gathered in front of him - he looked especially closely at the sannyasis and the brahmacari in bright saffron robes. But then he looked in the other direction, to where I stood to his left. He gazed steadily at someone, and a long silence hung in the air. I turned around and clearly saw that the person with whom he exchanged glances was Abhay Charanaravinda Prabhu. They look at each other in a strange way, I thought. Then Guru Maharaja again looked in front of him and said: “But I predict. I predict that the next of my students who crosses the ocean - this will not happen soon, I will not find it - this devotee will bring the whole world with him. ” I recall this incident and think that Srila A.Ch. Bhaktivedanta Swami did everything exactly as he said.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

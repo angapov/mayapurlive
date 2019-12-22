@@ -24,4 +24,6 @@ Pancha means five, anan means head, tala means tree. Panchamukhi or Panchanan - 
 
 Pilgrims pray to him to remove all obstacles during parikrama, and to see the dhama. Therefore, parikrama comes here first.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

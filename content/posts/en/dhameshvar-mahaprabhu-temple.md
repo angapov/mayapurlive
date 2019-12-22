@@ -142,4 +142,6 @@ Since then, two Deities have been worshiped in this temple: the original, establ
 
 Worship in the temple is still supported by priests from the Mishra clan (father of Srimati Vishnupriya). This obligation is inherited. Different families are responsible for worship at different times of the year.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

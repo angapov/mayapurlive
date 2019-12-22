@@ -41,4 +41,6 @@ Invariably merciful to His servants, the Lord fulfilled the desire of Shiva. Sum
 
 After it was all over, Shiva felt very awkward. Then Lord Vishnu appeared before him in his original form and said: “You have nothing to worry about. You and I are indistinguishable from each other. You are My manifestation. ” And in order to confirm His words, the Lord revealed this unusual form - semi-Shiva, semi-Vishnu.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

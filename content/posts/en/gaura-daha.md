@@ -78,4 +78,6 @@ Since we are all victims of the “crocodile” of material energy, the “croco
 
 When we sing kirtan in this place, our bodies must be covered with dust. All the dust here is dust from the lotus feet of Lord Caitanya Mahaprabhu. Filled with humility and transcendental madness, we must ride in this dust, begging Him for the mercy that we need so much. What kind of grace are we asking here? About unalloyed devotional service. ” (Radhanath Swami)
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

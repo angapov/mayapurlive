@@ -38,4 +38,6 @@ Lord Caitanya smiled, took out his manuscript and threw it into the water:
 
 \- May your work be glorified all over the world.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

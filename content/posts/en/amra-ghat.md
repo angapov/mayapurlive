@@ -18,4 +18,6 @@ tags:
 
 Amra-ghat is the place where Lord Caitanya performed a miracle with a mango tree. Now there is a small mango grove there.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

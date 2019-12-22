@@ -65,4 +65,6 @@ Opposite the Sharangi Murari Temple, the Bakul tree is growing, which is more th
 
 Until now, although the core is almost completely absent in this tree, it grows and bears flowers and fruits.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

@@ -38,4 +38,6 @@ tags:
 
 \- Пусть твой труд прославится по всему миру.
 
+Источник: [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="ru" url="mailto:haribol@mayapur.live"></tbd>

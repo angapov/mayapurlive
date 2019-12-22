@@ -53,4 +53,6 @@ So the great ocean remained in Navadvipa, plunged into constant reflection on th
 ### Srila Prabhupada about Samudragarh
 "Do not rush. You are busy with a very important thing - you are organizing a preaching center in Hawaii. I hope you manage to turn him into New Navadvipa Dhama. There is a Samudragarh railway station in Navadvip, and it is said that once there was an ocean. And if you install a new Navadvipa on the shores of the Pacific Ocean, it will be a great achievement ”(from a letter to Govinda dasu, January 8, 1970).
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

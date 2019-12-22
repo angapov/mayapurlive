@@ -18,4 +18,6 @@ tags:
 
 Амра-гхат — это место, где Господь Чайтанья явил чудо с манговым деревом. Сейчас здесь небольшая манговая роща.
 
+Источник: [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="ru" url="mailto:haribol@mayapur.live"></tbd>

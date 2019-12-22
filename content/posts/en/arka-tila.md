@@ -36,4 +36,6 @@ On Surya-kund, he performed his bhajan Bhagavata das Babaji, diksa guru Gaurakis
 ### Kamyavan
 This forest is located one kilometer from Arka Tila. He is not different from Kamyavan in Vrindavan, and here, like there, all wishes are fulfilled.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

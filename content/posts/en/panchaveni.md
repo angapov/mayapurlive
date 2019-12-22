@@ -22,4 +22,6 @@ Five rivers flow together here. Srila Bhaktivinoda Thakur says that the glories 
 
 “When I wash myself in the waters of Panchaveni and remember the lotus feet of Sri Gauranga. Filling my palms with water that washed Gaura’s feet, and drunk as much as I can, I get drunk from the memories of Gauranga. When will this time come? ”(Navadvipa-bhava-taranga, 64).
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

@@ -37,4 +37,6 @@ In honor of this event, a pandal was erected opposite the Shell building. Lord S
 
 Jayapataka Swami conducted an abhisheka to him, and after him thousands of devotees washed Hamsa-vahana with Ganga water and milk. Then they brought him to the altar, where the Gaura-arati took place, and then the arati to Hamsa-vahana himself. After that he was surrounded around the Pancha-tattva, Nrsimhadeva and Sri Sri Sri Radha-Madhava, and at seven in the evening Lord Siva returned to his temple on Madhyadvipa.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

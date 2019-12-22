@@ -36,4 +36,6 @@ tags:
 ### Камьяван
 Этот лес находится в километре от Арка-тилы. Он неотличен от Камьявана во Вриндаване, и здесь, как и там, исполняются все желания.
 
+Источник: [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="ru" url="mailto:haribol@mayapur.live"></tbd>

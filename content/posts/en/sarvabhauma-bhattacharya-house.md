@@ -86,4 +86,6 @@ Lord Caitanya agreed to fulfill his request. As soon as He appeared before the p
 
 Everyone in Kulia was liberated by the presence of the Lord. The most exalted and the most fallen - all have found His mercy. Many people came to Sri Caitanya and asked for forgiveness for past insults. The Lord generously forgave everyone.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

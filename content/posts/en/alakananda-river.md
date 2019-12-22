@@ -45,4 +45,6 @@ Lord Caitanya exclaimed:
 
 Lord Caitanya left this place - He was in the mood of a devotee and did not want to hear the worship of Him. But this parrot knew who Gauranga really was.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

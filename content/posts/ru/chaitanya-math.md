@@ -48,4 +48,6 @@ tags:
 ### Печатный станок
 В матхе хранится старый типографский станок, на котором печатались книги во времена Шрилы Бхактисиддханты Сарасвати.
 
+Источник: [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="ru" url="mailto:haribol@mayapur.live"></tbd>

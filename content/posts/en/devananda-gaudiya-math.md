@@ -84,4 +84,6 @@ devoid of devotion and committing an offense at the lotus feet of Srivasa Thakur
 In this place, we must ask the Lord and His devotees to forgive our insults and give us pure devotional service to the servants of the servants of the Lord. It will allow you to earn
 the mercy of the Lord and thus attain krsna-prema.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

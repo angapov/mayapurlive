@@ -25,4 +25,6 @@ Lord Caitanya and Murari Gupta pastimes.
 
 Coming to the house of Murari Gupta, we pray that he will cure us of spiritual diseases.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

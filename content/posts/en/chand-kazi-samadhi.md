@@ -26,4 +26,6 @@ Phujadara, or city magistrate, was called kaji (kazi). The so-called jamidars (z
 
 In Krishna’s pastimes, Chand Kazi was Kamsa, therefore the place where his house was located is not different from Mathura. Lord Krsna gave Kamsa liberation with a fist, and having come as Lord Caitanya, he awarded him Krishna-prema.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

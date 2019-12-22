@@ -50,4 +50,6 @@ In the courtyard of Caitanya Math, in addition to Radha-kunda and Syama-kunda, G
 
 An old printing press is stored in the math, on which books were printed during the time of Srila Bhaktisiddhanta Sarasvati.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

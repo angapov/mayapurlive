@@ -19,4 +19,6 @@ Mayamari is not far from [Jagannath Temple](/en/jagannath-temple), on the banks 
 
 The history of this place is told in Sri Navadvipa-dhama-mahatmya. Lord Balarama, making His pilgrimage, came to Navadvipa and stopped here to rest. Local brahmanas told Him of a demon named Maya, who caused many disturbances to the inhabitants of these places. Balarama went to this demon, and after a long battle he killed him. Since then, this place has been called Mayamari.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

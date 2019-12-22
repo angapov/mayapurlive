@@ -36,4 +36,6 @@ Srila Prabhupada emphasized the importance of this place many times. He wanted I
 ### Kurukshetra in Navadvipa
 Bhaktivinoda Thakur says: “All the demigods and all the holy places come here ... There are all the tirthas that are only on Brahmavarta and Kuruksetra. Prithudaka and other holy places are happy to serve here Navadvipa. One night spent here is equal to one hundred years lived in Kuruksetra. The demigods came here and set up a market (hutta) where they talk about the games of Gauranga. Therefore this place is called Hattadanga. Seeing him, a man reaches prema. " In Navadvipa-bhava-tarang it is said that the demigods are always holding the Gaura-kirtan here, which is sometimes heard by the locals. They say that even having passed this place, one can find love for God.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

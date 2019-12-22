@@ -47,4 +47,6 @@ tags:
 
 \- Да, сделай это, как можно скорее.
 
+Источник: [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="ru" url="mailto:haribol@mayapur.live"></tbd>

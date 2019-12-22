@@ -50,4 +50,6 @@ Parvati took the dust from the lotus feet of Gauranga and applied to her parting
 
 In the holy dham of Parvati, Maya-devi experiences the sincerity of the devotees. In this temple, you can pray Simantini devi to gain the mercy of Lord Caitanya. Just meditating here on this game, we will easily find His mercy.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

@@ -50,4 +50,6 @@ Hearing this, the brahman freed himself from all anxieties and began to live on 
 
 The result of ablution here is 100 times greater than ablution in the traditional Pushkara-tirtha.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>

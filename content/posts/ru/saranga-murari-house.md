@@ -65,4 +65,6 @@ tags:
 
 До сих пор, хотя в этом дереве почти полностью отсутствует сердцевина, оно растет и приносит цветы и плоды.
 
+Источник: [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="ru" url="mailto:haribol@mayapur.live"></tbd>

@@ -24,4 +24,6 @@ tags:
 
 Паломники молятся ему об устранении всех препятствий во время парикрамы, и о том, чтобы увидеть дхаму. Поэтому парикрама приходит сюда в первую очередь.
 
+Источник: [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="ru" url="mailto:haribol@mayapur.live"></tbd>

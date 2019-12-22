@@ -53,4 +53,6 @@ Vrindavan das Thakur was not even twenty when Lord Caitanya left this world. At 
 
 When Vrindavan das Thakur wrote his magnum opus, it’s hard to say. It is known, however, that in 1576, when Gaura-ganoddesa dipika was written, Caitanya-Bhagavata was already widely known. Initially, the book was called Chaitanya-mangala, but subsequently a book of the same name was written by Locana das Thakur. Therefore, Sri Raghunath das Goswami, Sri Jiva Goswami, Kashishwar Pandita, Haridas Pandit Goswami and Ananta Acharya got together and decided that the book of Locana das Thakur should be left the same name, and the book of Vrindavan das Thakur should be called differently. Since then, his book began to be called Caitanya-Bhagavata.
 
+Translated from [dhama.dayalnitay.ru](http://dhama.dayalnitay.ru/)
+
 <tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>
