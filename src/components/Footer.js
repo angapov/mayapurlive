@@ -36,7 +36,7 @@ const Footer = () => {
         </Box>
       </Box>
       <Box fill='horizontal' direction='row' gap='xsmall' align='center' justify='center'>
-        <Text size={size}>Mayapur Live © 2019</Text>
+        <Text size={size}>Mayapur Live © 2019-2020</Text>
       </Box>
       <Box fill='horizontal' align='center' justify='between' direction='row' gap='xsmall'>
         <Text size={size}><Favorite size='small' color='red' /> <Link to='/team'>{intl.footer_project_team[locale]}</Link></Text>
