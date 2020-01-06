@@ -1,15 +1,19 @@
 ---
 category: /en/food/
-published: false
-status: 'to do'
+published: true
+status: 'done'
 templateKey: post
 locale: en
 title: Gada Bhavan Prasad
-image:
-order: 4
-created_dt: 2019-12-04T12:00:00.000Z
-published_dt:
-description:
+image: ../../images/posts/gada-bhavan.jpg
+order: 7
+date: 2018-12-07T15:04:10.000Z
+description: Gada Bhavan Prasad
+location:
+  - 23.42637
+  - 88.38952
 tags:
   - prasad
 ---
+
+<tbd locale="en" url="mailto:haribol@mayapur.live"></tbd>
